@@ -1,0 +1,2561 @@
+Issue ID,URL,Title,State,Description,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
+197,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/197,MS004 : 納品先マスタ検索 / Search_Deliver_Destination : Add button position mismatch,Closed,"'# ↓Enter when creating defect issue↓
+
+## Defect Summary
+Add button is positioned differently with OLD_LOMOS  
+  
+
+## References / Evidences
+**In OLD LOMOS**  
+<img src=""/uploads/f1b1d268fa49488be36cf5e70a3899f7/image.png"" width=""512"">　　
+<img src=""/uploads/16814275b753df799178629d9d5ba6db/image.png"" width=""512"">　　
+
+**In NEW LOMOS**  
+<img src=""/uploads/007921e01eda821546bf3a549e4eae20/image.png"" width=""512"">　　
+<img src=""/uploads/ffab98655a7593879ab0ac1f6cddcd8b/image.png"" width=""512"">　　
+
+
+## Function With Error
+UI Layout  
+  
+## What Error Occurred
+Add button is not at expected position for both   
+1. Page init show  
+2. After search is run  
+  
+## Operation Procedure
+1. None  
+2. Click search with no search parameter  
+  
+## Expected Result
+1. Add button is shown at footer of page  
+2. Add button is shown at same place, at footer of page  
+
+## Actual Result
+1. Add button is shown right under header of page  
+2. Add button is moved from initial position  
+
+---
+
+# ↓Enter when issue is resolved↓
+
+## What was the direct cause?
+Enter the direct cause of this
+
+## What was the root cause?
+Enter the root cause of this
+
+## How can this be prevented from next time?
+Enter how to prevent, so it will not happen in future
+
+## What was changed to resolve this?
+Enter which files/settings you have updated
+
+## How was it changed to resolve this?
+Enter what/how each files/settings have been updated",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 10:13:34,2020-09-25 08:17:37,2020-09-25 08:17:37,,,"Defect-PT-InternalReview,Doing",0,0
+199,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/199,MS004 : 納品先マスタ検索 / Search_Deliver_Destination :  Search result message is missing,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Message telling search result count is missing.   
+
+## References / Evidences  
+**In OLD LOMOS**  
+<img src=""/uploads/3983a234871e0d83ce951ba1734b64e1/image.png"">　
+  
+**In NEW LOMOS**  
+<img src=""/uploads/d3e173c8efc6fb701922da452a615303/image.png"">　
+
+## Function With Error  
+Log Message  
+
+## What Error Occurred  
+Message at header, when search is success is missing  
+
+## Operation Procedure  
+1. Click search with LESS than 3 criteria, AND deliver destination code NOT filled in  
+2. 1 or more result is shown  
+
+## Expected Result  
+1. Message is shown, telling how many result is found  
+
+## Actual Result  
+1. No message is shown  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 10:55:21,2020-09-25 08:16:52,2020-09-25 08:16:52,,,"Defect-PT-InternalReview,Doing",0,0
+200,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/200,MS004 : 納品先マスタ検索 / Search_Deliver_Destination : Button Alignment,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Button is not aligned, and balance is not good  
+
+## References / Evidences  
+**In MS004**  
+![image](/uploads/328ea2bbdf8c1bc28395a0967c2acdb4/image.png)  
+
+## Function With Error  
+Button layout  
+
+## What Error Occurred  
+Currenlty, each buttons are not aligned, and is shown not balanced well  
+  
+## Operation Procedure  
+None  
+
+## Expected Result  
+Buttons are aligned like following image  
+1. Right edge is aligned with header block area.  
+2. Right edge of Add button is also aligned with right edge of Clear button.  
+ 
+**Sample**  
+![image](/uploads/55f143913efc4615ce9ae468cdfda88f/image.png)  
+
+## Actual Result  
+1. Button is not aligned  
+  
+**In MS004**  
+![image](/uploads/328ea2bbdf8c1bc28395a0967c2acdb4/image.png)  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 11:04:25,2020-09-25 08:16:16,2020-09-25 08:16:16,,,"Defect-PT-InternalReview,Doing",0,0
+202,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/202,MS004 : 納品先マスタ検索 / Search_Deliver_Destination : Tool Tip Implementation,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Tool Tip for deliver destination name is missing   
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/9aea3d30ee0a0f6a26ceb823bda10108/image.png)  
+
+## Function With Error  
+Tool Tip    
+
+## What Error Occurred  
+Tool Tip is not shown on deliver destination name   
+
+## Operation Procedure  
+1. Move cursor over deliver destination name    
+
+## Expected Result  
+Tool tip is shown like this  
+![image](/uploads/9aea3d30ee0a0f6a26ceb823bda10108/image.png)    
+
+## Actual Result  
+Tool tip is missing  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 11:16:37,2020-09-29 07:24:50,2020-09-29 07:24:50,,,"Defect-PT-InternalReview,Doing",0,0
+203,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/203,[To Be Checked] MS004 : 納品先マスタ検索 / Search_Deliver_Destination : 1 Page Item Count,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Table shows only 10 items per page    
+
+## References / Evidences  
+<img src=""/uploads/3b6b24dfb66fe6e1e39c9bacb441d087/image.png"" width=""512"">　  
+
+## Function With Error  
+Max item shown in 1 page    
+
+## What Error Occurred  
+Page only shows 10 items    
+
+## Operation Procedure  
+Run any search with more than 10 result  
+
+## Expected Result  
+1 page shows maximum of 200 items  
+
+## Actual Result  
+1 page shows maximum of 10 items  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 11:20:09,2020-09-25 08:54:27,2020-09-25 08:54:27,,,"Defect-PT-InternalReview,Doing",0,0
+204,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/204,MS004 : 納品先マスタ検索 / Search_Deliver_Destination :  Button layout in table item,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Setting button is missing margin.  
+
+## References / Evidences  
+![image](/uploads/5cd103702c0ac3638ab222a006a63294/image.png)![image](/uploads/c40b93fc64f8f93471138d8656c94c1f/image.png)
+
+## Function With Error  
+Layout  
+
+## What Error Occurred  
+Button is missing margin, causing each buttons to be squashed to each other    
+
+## Operation Procedure  
+Run any search with more than 1 result    
+
+## Expected Result  
+Button is shown like OLD_LOMOS, with margin  
+
+## Actual Result  
+Button is shown without margin  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 11:23:25,2020-09-29 07:23:46,2020-09-29 07:23:46,,,"Defect-PT-InternalReview,Doing,QA",0,0
+213,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/213,NK013 : 入庫進捗 : Footer area is not shown,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Footer area and message is not shown.  
+
+## References / Evidences  
+**In OLD LOMOS**  
+Footer area, message is shown.
+![image](/uploads/9a78da4d09ff45d944d70d0b13817b32/image.png)    
+  
+**In NEW LOMOS**  
+Footer area, message is not shown.    
+![image](/uploads/7326f365d31a71fcc7a559e91e5ae816/image.png)  
+
+## Function With Error  
+UI    
+
+## What Error Occurred  
+1. Footer area not shown.  
+2. Message of how many item is found, is not shown.  
+  
+## Operation Procedure  
+None  
+
+## Expected Result  
+Like old lomos, footer area exists with message.  
+
+## Actual Result  
+No footer area, with no message.    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+MONITOR  
+
+## What was the root cause?  
+MONITOR RESOLUTION  
+
+## How can this be prevented from next time?  
+Company to buy better equiptments.  
+
+## What was changed to resolve this?  
+Monitor  
+
+## How was it changed to resolve this?  
+Switch to use better monitor  
+
+## References / Evidences  
+![image](/uploads/3774d4fda0bb6e1b72dc04ceb1838fac/image.png)  ",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 03:45:28,2020-09-24 05:29:32,2020-09-24 05:28:06,,,Defect-PT-InternalReview,0,0
+214,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/214,NK013 : 入庫進捗 : Table height mismatch,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Horizontal line positioning is not match for button column, and code column.  
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/eeae9c3dd5b18931d37be8fa56ca7292/image.png)
+  
+**In NEW LOMOS**  
+![image](/uploads/b4afb187f462b36461fe6db8fbe89cb6/image.png)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+Border of table does not match other cells    
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Horizontal border is always at same Y Pos for whole row.  
+
+## Actual Result  
+Horizontal border Y Pos is differect at detail button column, and every other column.  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-24 03:51:18,2020-10-01 05:50:44,2020-10-01 05:50:44,,,"Defect-PT-InternalReview,Doing,QA",0,0
+215,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/215,NK013 : 入庫進捗 : Data shown on incorrect date,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Data for item count, case count is shown on wrong date  
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/90261947256e955819203bca37a5aa94/image.png)
+
+**In NEW LOMOS**  
+![image](/uploads/87e947966aade6924061c98920321fcd/image.png)
+  
+## Function With Error  
+Table content  
+
+## What Error Occurred  
+Data for ""Today"" is shown at BOTH ""Today"" and ""Tomorrow"" area.  
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Cells only show data related to that date.    
+
+## Actual Result  
+Both ""Today"" and ""Tomorrow"" shows same data.  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-24 03:57:29,2020-09-25 08:29:34,2020-09-25 08:29:34,,,"Defect-PT-InternalReview,Doing",0,0
+216,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/216,NK013 : 入庫進捗 : Missing comma for numbers,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+"","" is missing for header area  
+
+## References / Evidences  
+**In OLD LOMOS**    
+![image](/uploads/156a52178decded973206b00c34c90e0/image.png)  
+  
+**In NEW LOMOS**  
+![image](/uploads/3f306124f584da655519d959f59a284d/image.png)    
+
+## Function With Error  
+Comma indicator for numbers    
+
+## What Error Occurred  
+When number is over 4 digit, it should have comma for each fields,  
+but in NEW LOMOS comma is missing.  
+Please check for each cells like ""item"", ""case"", ""plan"", ""actual"" just in case.  
+  
+## Operation Procedure  
+None  
+
+## Expected Result  
+Each number with more than 4 digit will have comma  
+
+## Actual Result  
+Missing comma  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Html pg mistake
+
+## What was the root cause?  
+Missing comma  
+
+## How can this be prevented from next time?  
+double check and compare UI screen 
+
+## What was changed to resolve this?  
+Html code
+
+## How was it changed to resolve this?  
+Update Html code  
+
+## References / Evidences  
+![image](/uploads/2a5a1bbedd63b878e20809264a9433ec/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 04:01:32,2020-09-25 03:28:29,2020-09-25 02:49:37,,,Defect-PT-InternalReview,0,0
+219,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/219,NK014 : 入庫進捗詳細 : Missing comma for numbers,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+"","" is missing for header area  
+
+## References / Evidences  
+**In OLD LOMOS**    
+![image](/uploads/540b2c836f5422e54041bef8185a8ea3/image.png)  
+
+**In NEW LOMOS**  
+![image](/uploads/621fc14077ff01c1eb9c0775a75dd8fc/image.png)    
+
+## Function With Error  
+Comma indicator for numbers    
+
+## What Error Occurred  
+When number is over 4 digit, it should have comma for each fields,  
+but in NEW LOMOS comma is missing.  
+Please check for each cells like ""item"", ""case"", ""plan"", ""actual"" just in case.  
+  
+## Operation Procedure  
+None  
+
+## Expected Result  
+Each number with more than 4 digit will have comma  
+
+## Actual Result  
+Missing comma  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Html pg mistake
+
+## What was the root cause?  
+Missing comma  
+
+## How can this be prevented from next time?  
+double check and compare UI screen 
+
+## What was changed to resolve this?  
+Html code
+
+## How was it changed to resolve this?  
+Update Html code  
+
+## References / Evidences  
+![image](/uploads/00109fadc9b5f3dce72fc884ea42bcc2/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 05:54:22,2020-09-25 07:08:44,2020-09-25 07:08:44,,,Defect-PT-InternalReview,0,0
+220,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/220,NK014 : 入庫進捗詳細 : Initial focus point mismatch,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+First focus is at different point when screen is initially opened.    
+
+## References / Evidences  
+**OLD LOMOS**  
+Focus at dropdown
+![image](/uploads/fcf175c09d21d8b3923eb5369ed71f19/image.png)    
+
+**NEW LOMOS**  
+Focus at deliver destination code  
+![image](/uploads/d482d9f8e84cca6348869152606467dc/image.png)    
+
+## Function With Error  
+Focus  
+
+## What Error Occurred  
+Focus is at different place compared to old lomos  
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Focus at dropdown  
+
+## Actual Result  
+Enter how it was actually working  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Missing setfocus hidden input 
+
+## What was the root cause?  
+PG mistake 
+
+## How can this be prevented from next time?  
+double check the UI screen 
+
+## What was changed to resolve this?  
+Html code
+
+## How was it changed to resolve this?  
+add hidden input
+
+## References / Evidences  
+![image](/uploads/2d8fa2fd1287c56728a0d8dfd751909c/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 06:00:13,2020-09-28 01:13:00,2020-09-25 07:08:47,,,Defect-PT-InternalReview,0,0
+221,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/221,NK014 : 入庫進捗詳細 : Dropdown item names,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Code of first item is not shown  
+
+## References / Evidences  
+![image](/uploads/e8dc41a7bdc3a1f9163f2f797969b03d/image.png)  
+  
+## Function With Error  
+Dropdown item  
+
+## What Error Occurred  
+I see that each item is shown in format ""code:name"".
+But first item does not match that format.  
+
+## Operation Procedure  
+Click dropdown.  
+
+## Expected Result  
+Each item follow format ""code:name""  
+
+## Actual Result  
+1st item does not follow format.
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-24 07:25:59,2020-10-01 05:50:26,2020-10-01 05:50:26,,,"Defect-PT-InternalReview,Doing,QA",0,0
+222,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/222,NK014 : 入庫進捗詳細 : Tool Tips Missing,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Missing tool tips  
+
+## References / Evidences  
+Marked in red are things that needs tool tips  
+![image](/uploads/4efbd4a55b4db18252dbd20f2e92e551/image.png)  
+
+In excel, marked in yellow BG are things that needs tool tips  
+![image](/uploads/125f52150d6c941574d943fe6a6106a9/image.png)
+
+Expected tool tip to be shown, something like this  
+![image](/uploads/e6ce3ce3fce25b7e4dd6656e1fc9377c/image.png)
+
+## Function With Error  
+There are no tool tips implemented    
+
+## What Error Occurred  
+Tool tip does not popup when cursor is on  
+
+## Operation Procedure  
+Place cursor over cells  
+
+## Expected Result  
+Tool tip pops up, showing full content  
+
+## Actual Result  
+No tool tip is shown  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 07:30:48,2020-09-28 01:22:43,2020-09-28 01:22:42,,,Defect-PT-InternalReview,0,0
+224,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/224,NK014 : 入庫進捗詳細 : Progress Bar color update,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Progress Bar color is not same as OLD LOMOS  
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/4457865a45c0f5263e8057844e6ef9c1/image.png)  
+
+**IN NEW LOMOS**  
+![image](/uploads/c23c3e884c8fbf55cbc996bad3707bf8/image.png)  
+
+## Function With Error  
+Progress Bar color  
+
+## What Error Occurred  
+Color is fixed with dark blue  
+
+## Operation Procedure  
+In NK013, select 2nd button shown.
+![image](/uploads/903f1fe277bea7bbcbb6411a1e54be6a/image.png)  
+
+## Expected Result  
+Color of 2nd progress bar becomes light blue, as in OLD LOMOS sample  
+
+## Actual Result  
+Color of 2nd progress bar stays as dark blue  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-24 10:27:59,2020-10-01 05:50:14,2020-10-01 05:50:14,,,"Defect-PT-InternalReview,Doing,QA",0,0
+228,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/228,MS060 : ロケーション属性マスタ検索 : Add button position mismatch,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Enter summary here  
+
+## References / Evidences  
+In old lomos, add button is set to bottom from default.  
+![image](/uploads/a99118769322233f17e519baed47cd4a/image.png)  
+  
+But in new lomos, add button is set right under header area.  
+![image](/uploads/bd59a96284dd160f78cf177ae69b3659/image.png)
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+BUtton positioning is not same as old ver  
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Add button is at bottom  
+
+## Actual Result  
+Add button is right under header  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-29 07:16:20,2020-10-01 05:51:20,2020-10-01 05:51:20,,,Defect-PT-InternalReview,0,0
+229,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/229,TN001 : 棚卸管理 : System error caused when button is pressed,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+When button is pressed, system error is shown  
+
+## References / Evidences  
+When 1st, 3rd, 4th, 5th button on footer is pressed,  
+System Error occurs  
+![image](/uploads/0868509227903122fd53d41f99db3331/image.png)  
+  
+SYSTEM ERROR  
+![image](/uploads/18011ad09d88b631b6f317cbcd5872df/image.png)  
+  
+  
+## What Error Occurred  
+System error  
+
+## Operation Procedure  
+1. Click either 1st, 3rd, 4th, 5th button on bottom  
+
+## Expected Result  
+No System Error.  
+Screen transition / list export will not happen   
+
+## Actual Result  
+System error  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-29 09:01:34,2020-10-16 06:15:33,2020-10-16 06:15:33,,,Defect-PT-InternalReview,0,0
+230,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/230,TN001 : 棚卸管理 : White List count does not get updated,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Page count does not get added, when white list is exported.  
+
+## References / Evidences  
+![image](/uploads/5dc42fadf16b9b583c228cc386fdb6f4/image.png)  
+  
+## What Error Occurred  
+Page count is not updated  
+
+## Operation Procedure  
+1. Enter any integer to ""white list add count"" text field
+2. Press White List Export button on bottom  
+
+## Expected Result  
+1. Page Count gets added and updated for selectd item.   
+
+## Actual Result  
+System Error.  
+Page Count is NOT updated.    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-29 09:19:45,2020-10-22 05:35:36,2020-10-22 05:35:36,,,Defect-PT-InternalReview,0,0
+240,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/240,SK006 : 出荷実績確定 : Missing required field color,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Dropdown is not shown as required field  
+
+## References / Evidences  
+**In NEW LOMOS**  
+![image](/uploads/af0a4c65b921819f9b1832fcfd8ff2f1/image.png)   
+  
+**In OLD LOMOS**    
+![image](/uploads/a50539841b82dd25cc52094942aaeb7f/image.png)  
+  
+## Function With Error  
+UI  
+
+## What Error Occurred  
+Dropdown is not visualized as required field  
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Dropdown is colored in required field color  
+
+## Actual Result  
+BG is white  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 02:52:28,2020-10-05 00:57:17,2020-10-05 00:57:17,,,Defect-PT-InternalReview,0,0
+241,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/241,SK006 : 出荷実績確定 : Button requested to hide is shown,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Needs to Hide UI based on UI spec request    
+
+## References / Evidences  
+**UI Spec**
+(red speech bubble say as follows  
+1. Hide   
+2. Apply feature, and then comment out  
+)  
+![image](/uploads/7c0d5675abc136a9bbc4a82db0733933/image.png)　　 
+
+**In NEW LOMOS**  
+![image](/uploads/6af300ecca3ef607cf5808c3240a4db5/image.png)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+UI expected to be hidden is shown  
+
+## Operation Procedure  
+1. Show table with 1 or more item.   
+
+## Expected Result  
+1. Button on table is hidden.  
+(checkbox is still expected to be shown)     
+
+## Actual Result  
+1. Button is shown  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 03:17:42,2020-10-05 00:57:14,2020-10-05 00:57:14,,,Defect-PT-InternalReview,0,0
+242,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/242,SK006 : 出荷実績確定 : System error when executing item,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+System error when execute is triggered  
+
+## References / Evidences  
+**Show item, select item**    
+![image](/uploads/b1bee9a1c5103c7a8ca1e8d13c95d5e5/image.png)  
+
+**Result after ""Execute**  
+![image](/uploads/329f9bffcf79af7e49d8a06dd6d5d81c/image.png)  
+
+**Data not updated**  
+(expected 2013/04/17 to be be off the list after execute for all items of that date)  
+![image](/uploads/77021023b35e00f39a64195b57ae1c31/image.png)  
+
+
+## Function With Error  
+Execute action  
+
+## What Error Occurred  
+1. System Error  
+2. Data not updated    
+ 
+## Operation Procedure  
+1. Select date to show table
+2. Check item in table
+3. Click Execute button
+4. Click OK for confirmation popup  
+
+## Expected Result  
+1. Data to be updated.
+2. Message ""Process Complete"" is shown.  
+3. Checked items to be not shown in this screen any more.
+4. If all items of date was checked, date will be removed from dropdown. 
+
+## Actual Result  
+System Error  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 03:31:14,2020-10-05 00:57:16,2020-10-05 00:57:16,,,Defect-PT-InternalReview,0,0
+243,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/243,MS023 : ゾーンマスタ設定 : Fail when trying to update data,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+When trying to update data, it fails with message   
+`W095 対象ロケーションの範囲は既に他のゾーンで設定されているため、登録できません。`  
+
+## References / Evidences  
+![image](/uploads/181fad5937e175139e563e7384e8e924/image.png)  
+
+## Function With Error  
+Update data  
+
+## What Error Occurred  
+When updating already existing data, it fails.  
+
+## Operation Procedure  
+1. Open MS022 and search for any item.
+2. In MS022 table, select set button to transit to MS023  
+3. Click Add/Update button   
+
+## Expected Result  
+1. Data succeeds to update.  
+
+## Actual Result  
+1. Fails with following message (target location area is already set in other zone. cannot register)
+`W095 対象ロケーションの範囲は既に他のゾーンで設定されているため、登録できません。`  
+  
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 03:52:11,2020-10-05 00:57:41,2020-10-05 00:57:41,,,Defect-PT-InternalReview,0,0
+244,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/244,MS023 : ゾーンマスタ設定 : Delete button disable status mismatch,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+When selecting item that cannot be updated/deleted, in NEW LOMOS delete button is not disbled.    
+
+## References / Evidences  
+**In OLD LOMOS** 
+![image](/uploads/29ecd70c6258185ef6e41547e51c5a91/image.png)  
+  
+**In NEW LOMOS**  
+![image](/uploads/b28785f513aaffe9931852eeee43e78c/image.png)
+  
+**Item to select**  
+![image](/uploads/265e977939667bb9634488795a61247e/image.png)
+
+
+## Function With Error  
+Button disable status.    
+
+## What Error Occurred  
+Delete button is enabled, when its expected to be disabled.    
+
+## Operation Procedure  
+1. In MS022, select either of following data.
+![image](/uploads/3a959056369b8eb2b4a39433de89c1ef/image.png)  
+![image](/uploads/61b5ea797036dce24853a157dbcb4070/image.png)  
+
+## Expected Result  
+1. Both Add/Update, and Delete button is disabled.  
+
+## Actual Result  
+1. Add/Update button is disabled.
+2. Delete button is enabled.  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 03:57:16,2020-10-06 03:08:25,2020-10-06 03:08:25,,,"Defect-PT-InternalReview,Doing",0,0
+246,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/246,MS023 : ゾーンマスタ設定 : Required field text background color issue,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+For some fields bg color is updated to pink after insert.
+For some, it remains white.  
+For initial state, they are all white.  
+
+## References / Evidences  
+**Initial State**  
+![image](/uploads/23f6fdb551c6d2874451d80b6cf20fd9/image.png)  
+
+**After Input**    
+![image](/uploads/a2b91b8b713c5653cc4981c12c6bb07e/image.png)  
+  
+**Reference of OTHER eMES screen with required field**
+![image](/uploads/942337a54cfa0baac3ed852b92ee8cdf/image.png)  
+
+## Function With Error  
+Required field background color  
+
+## What Error Occurred  
+It will depend on the expected bg color when required field is filled in.
+Each required fields are expected to follow that pattern.  
+
+## Operation Procedure  
+1. None  
+
+## Expected Result  
+1. Apply same expected rule for each required fields.  
+
+## Actual Result  
+Enter how it was actually working  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-02 04:26:48,2020-10-06 03:02:35,2020-10-06 03:02:35,,,"Defect-PT-InternalReview,Doing",0,0
+247,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/247,MS023 : ゾーンマスタ設定 : Deleted Data is not removed from MS022,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Deleted data in MS023 is not applied in MS022    
+
+## References / Evidences  
+No capture  
+
+## Function With Error  
+DB update/refresh  
+
+## What Error Occurred  
+After item is removed in MS023, and move BACK to MS022, item deletion is not applied.  
+And when trying to click Setting for deleted item, it just refreshes screen.  
+And even after this, item is still shown.    
+
+## Operation Procedure  
+1. Show 1 or more results in MS022
+2. Select 1 item in MS022 and click Setting to transit to MS023
+3. Delete item in MS023
+4. Click BACK and transit to MS022  
+
+## Expected Result  
+From table, deleted item is removed    
+
+## Actual Result  
+Deleted item still exists    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-02 07:19:24,2020-10-09 02:33:14,2020-10-09 02:33:14,,,"Defect-PT-InternalReview,Doing",0,0
+248,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/248,NK005 : 入庫指示リスト出力 : Select All / Unselect All is not working,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+When clicking Select all / deselect all, checkbox is not updated  
+
+## References / Evidences  
+![NK005-select-unselect](/uploads/bd796d1c5e47ca12e874645c480205ed/NK005-select-unselect.gif)  
+
+## Function With Error  
+1. Select all  
+2. Deselect all  
+
+## What Error Occurred  
+Checkbox is not updated  
+
+## Operation Procedure  
+1. Click select all buttton.
+2. Click deselect all button.  
+
+## Expected Result  
+1. Checkbox status is updated  
+
+## Actual Result  
+1. Checkbox status is not updated
+Enter how it was actually working  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Missing JavaScript
+
+## What was the root cause?  
+PG mistake didnt commit JavaScript  
+
+## How can this be prevented from next time?  
+Double check after commit 
+
+## What was changed to resolve this?  
+add NK005 JavaScript 
+
+## How was it changed to resolve this?  
+add NK005 JavaScript 
+
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-02 07:50:04,2020-10-14 08:19:41,2020-10-09 02:56:27,,,"Defect-PT-InternalReview,To Do",0,0
+249,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/249,NK005 : 入庫指示リスト出力 : Export via Supplier / Item,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+System Error occurs and data is not updated  
+
+## References / Evidences  
+**Export by Supplier case**  
+![NK005-export-list-via-supplier](/uploads/9bddf87d209d2f0d69c8b230f60ffc4f/NK005-export-list-via-supplier.gif)
+  
+
+**Export by Supplier case**  
+![NK005-export-list-via-item](/uploads/241664bedffecc5aadd83db2dea14f01/NK005-export-list-via-item.gif)  
+
+
+## Function With Error  
+Button on click event, DB update  
+
+## What Error Occurred  
+1. DB update is not applied  
+2. Missing error handling, leading to system error    
+
+## Operation Procedure  
+1. Select ""Issue New List"" (left) for radio button
+2. Run search
+3. Check any item for export target
+4. Click Export by Supplier button OR Export by Item button. (both has same error)
+ 
+## Expected Result  
+1. Checked item is removed from ""Issue New List"" search result, and moved into ""Reissue List"" search result.  
+2. List export feature is not applied and commented out. (or any handling so list export will not be triggered)
+3. No System Error occurs, and initial view of NK005 is shown.  
+
+## Actual Result  
+1. Data is not updated
+2. System Error  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Print function is not ready yet  
+
+## What was the root cause?  
+Didnt comment out print function
+
+## How can this be prevented from next time?  
+Double check on the pg code
+
+## What was changed to resolve this?  
+Comment out the print function
+
+## How was it changed to resolve this?  
+Comment out the print function
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-02 08:00:40,2020-10-14 07:33:07,2020-10-14 07:33:07,,,"Defect-PT-InternalReview,Doing",0,0
+258,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/258,ZN007 : 日締め処理 : System error when start button is clicked,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+When button is clicked, system error occurs  
+
+## References / Evidences  
+![ZN007](/uploads/909d89513bf71fec40933a65d3ecdfb1/ZN007.gif)  
+
+## Function With Error  
+OnClick event  
+
+## What Error Occurred  
+System Error  
+
+## Operation Procedure  
+1. Click start button  
+
+## Expected Result  
+1. No system error  
+2. Nothing happens when button is clicked (since main feature in click event should be commented out)    
+
+## Actual Result  
+1. System Error    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 01:34:27,2020-10-09 02:42:14,2020-10-09 02:42:14,,,Defect-PT-InternalReview,0,0
+259,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/259,TR002 : 出荷実績履歴参照 : Date validator not working,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Date validation does not validate non-date format texts    
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/00ca6dc7504474bfd92ed0115c24729c/image.png)  
+   
+**In NEW LOMOS**  
+![image](/uploads/60a3c3705b32996af83d06e73a0efa8f/image.png)  
+![image](/uploads/1840b963e6187cf4aac17002eb197ef2/image.png)   
+
+## Function With Error  
+Validation of text format  
+
+## What Error Occurred  
+Even if the text is not correct date, erorr message is not shown and search is run.  
+
+## Operation Procedure  
+1. Enter INVALID date for any of followings  
+ - Shipping Date FROM
+ - Shipping Date TO
+ - Deliver Date FROM
+ - Deliver Date TO
+
+## Expected Result  
+Error message, based on OLD LOMOS is shown  
+
+## Actual Result  
+No error message, some search result is shown  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 01:49:09,2020-10-09 02:04:50,2020-10-09 02:04:50,,,Defect-PT-InternalReview,0,0
+260,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/260,TR002 : 出荷実績履歴参照 : Button margin is not set,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Button margin is not set as expected  
+
+## References / Evidences  
+![image](/uploads/81a0fbe1e4fffc048060900ad32b41f1/image.png)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+Margin is not set to button, and layout is not looking good.  
+
+## Operation Procedure  
+1. None  
+
+## Expected Result  
+1. 5px Margin is set to button (Please check other screens/dev for detail on this)   
+![image](/uploads/3f6aad2dc0b37a0928a602b35dfb9162/image.png)  
+
+## Actual Result  
+1. No margin  
+![image](/uploads/77b5aac972c5dc4018184b96a9b07517/image.png)  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 01:57:17,2020-10-27 04:04:04,2020-10-27 04:04:04,,,"Defect-PT-InternalReview,Doing",0,0
+261,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/261,TR002 : 出荷実績履歴参照 : Able enter double byte character each fields,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Double byte can be typed, but it should not be able to be typed  
+
+## References / Evidences  
+![TR002-3](/uploads/8c180ca6ca08d24ddd0534c73bc8895b/TR002-3.gif)  
+
+## Function With Error  
+Input field input type.  
+
+## What Error Occurred  
+Should not allow double byte input.  
+(Can paste, but should not be able to type directly from keyboard)    
+
+## Operation Procedure  
+1. Focus on any input field.  
+2. Switch keyboard to double byte mode  
+3. enter double byte  
+
+## Expected Result  
+1. Cannot switch to double byte mode    
+
+## Actual Result  
+1. Can switch to double byte mode, and can enter double byte.   
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 02:10:52,2020-10-27 04:03:56,2020-10-27 04:03:56,,,Defect-PT-InternalReview,0,0
+262,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/262,TR002 : 出荷実績履歴参照 : Shipping Date FROM is not shown as required field,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+For required field, following is missing.
+1. Text field background color
+2. Cell background color  
+
+## References / Evidences  
+![image](/uploads/6419bc5462243a44cd341c7a89ac3857/image.png)
+
+## Function With Error  
+BG Color  
+
+## What Error Occurred  
+Color does not match required field   
+
+## Operation Procedure  
+1. None  
+
+## Expected Result  
+1. BG is shown as pink for required field.
+ - If Shipping Date FROM cell and TO cell is set as 1 cell, is it able to split them into 2?
+ - If yes, please set input field background color AND Shipping Date FROM cell background color as required field color.   
+ - If not, please just set input field background color as required field color.   
+
+## Actual Result  
+Enter how it was actually working  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 02:26:18,2020-10-27 04:03:34,2020-10-27 04:03:34,,,"Defect-PT-InternalReview,Doing",0,0
+274,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/274,MS023 : A strange behaviour on update data,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+A strange behaviour when I tried to update data by clicking add/update, It will trigger me that I have to click search button before update. Whereas I already pressed the search button before. This only occurs when user search for existing data, update to existing location and press add/update then try to change to correct location (not exist yet) then try to press add/update .
+
+## References / Evidences  
+Paste screen capture, or error log text here  
+
+## Function With Error  
+Enter what feature has error  
+
+## What Error Occurred  
+Enter what error is occurring  
+
+## Operation Procedure  
+1) on MS022 click Add new
+2) find existing data and click search
+3) update location ""from"" and ""to"" to other existing location so error will occur. Click add/update
+4) Error shows that location has existed, fix the location ""for"" and ""to"" to valid location to update and click add/update
+5) an error shows ""W199 
+
+入力したコードは、既に存在していますので、検索ボタンを押してください。""
+
+## Expected Result  
+Enter how it should work  
+
+## Actual Result  
+Enter how it was actually working  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+There is updateTime which is not considered during migration.
+
+## What was the root cause?  
+The Javascript is not fully migrated.
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",AUT-Iskandar,iskandar,AUT-Iskandar,iskandar,No,No,2020-10-16,2020-10-16 10:15:02,2020-10-16 10:26:57,2020-10-16 10:26:57,,,Defect-PT-InternalReview,0,0
+276,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/276,TN001 : 棚卸管理 : Inventory does not get removed after complete inventory,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+In TN001, inventory status does not get updated.  
+
+## References / Evidences  
+In NEW LOMOS  
+![TN001-1](/uploads/f9694a081a8317f7dda3749ea4b5e6eb/TN001-1.gif)  
+ 
+In OLD LOMOS  
+![TN001-3](/uploads/b2e4ba1e2e08e2a7b6d562fad4a8737a/TN001-3.gif)
+
+## Function With Error  
+Inventory status update, and message update    
+
+## What Error Occurred  
+Table and message is not updated    
+
+## Operation Procedure  
+1. Select any item in TN001.  
+2. Click Decide Inventory button.  
+
+## Expected Result  
+1. Selected inventory status is updated.
+2. Selected inventory is removed from table of started inventory in TN001
+3. Message shows message with new item count ""x items found.  
+
+## Actual Result  
+1. Item status is not updated.
+2. Message does not show item count  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-20 07:28:18,2020-10-23 05:55:54,2020-10-23 05:55:54,,,Defect-PT-InternalReview,0,0
+277,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/277,TN003 : 棚卸入力 : Header UI,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+UI not matches format with other screens.
+Also header input field bg color is white for required field.
+(Details to be added later)  
+
+## References / Evidences  
+IN NEW LOMOS  
+![image](/uploads/18ab0230088a87f48e95ddd6891ea2e8/image.png)  
+  
+IN OLD LOMOS  
+![image](/uploads/b06c93207bb9c1c4f67870772cfda205/image.png)  
+  
+## Function With Error  
+UI  
+
+## What Error Occurred  
+1. Missing table format
+2. Missing text ""Page Number"" (ページ番号）
+3. BG color of input field in header area should be white
+4. Unexpected title text ""Search Criteria"" (検索条件)
+
+## Operation Procedure  
+1. Open TN003  
+
+## Expected Result  
+Migrated in same pattern with MS022.  
+(Needs to be discussed within developer to confirm which is as expected)  
+  
+Sample in MS022  
+![image](/uploads/25bd6d344a7e836c7a4ffc0711b11e73/image.png)  
+![image](/uploads/4feaff90d70afeecc538fae4ff05d387/image.png)  
+   
+## Actual Result  
+![image](/uploads/646a8fa7483e94a643adac821dc2599d/image.png)    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-20 07:33:29,2020-10-22 05:35:32,2020-10-22 05:35:32,,,Defect-PT-InternalReview,0,0
+279,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/279,TN003 : 棚卸入力 : Back button returns to menu instead of prev screen,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+When back is pressed in TN003, it returns to main menu  
+
+## References / Evidences  
+![TN003-1](/uploads/4ed72a85746a380051a16240ef5b4f36/TN003-1.gif)    
+  
+## Function With Error  
+back button  
+
+## What Error Occurred  
+Not returns to previous page  
+
+## Operation Procedure  
+1. Proceed to TN003 from TN001
+2. Press Back button  
+
+## Expected Result  
+1. Screen transition to TN001  
+
+## Actual Result  
+1. Screen transition to main menu  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-20 09:22:30,2020-10-22 05:35:31,2020-10-22 05:35:31,,,Defect-PT-InternalReview,0,0
+280,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/280,TN002 : 棚卸開始 : Table layout (title),Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Title text UI does not match with other screen pattern, such as MS022  
+
+## References / Evidences  
+![image](/uploads/3cd4c3dcc272b684b227a143e74878ba/image.png)  
+
+## Function With Error  
+Layout for title of table  
+(in this screen ""棚卸開始"" and ""各種設定"")  
+
+## What Error Occurred  
+Needs confirmation if this is as expected layout  
+
+## Operation Procedure  
+1. None  
+
+## Expected Result  
+According to MS022, this kind of title is cut off.  
+Needs confirmation within team which is correct, and apply to that.  
+
+Sample in MS022  
+![image](/uploads/25bd6d344a7e836c7a4ffc0711b11e73/image.png)  
+![image](/uploads/4feaff90d70afeecc538fae4ff05d387/image.png)  
+  
+## Actual Result  
+![image](/uploads/c9824d56e62fffe0d3dbb2b5233e9345/image.png)    
+![image](/uploads/8a8416ccbc2676a9b974bdf7f916ec5c/image.png)  
+
+ALSO same in TN003  
+![image](/uploads/646a8fa7483e94a643adac821dc2599d/image.png)  
+  
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-20 09:30:31,2020-10-22 05:35:30,2020-10-22 05:35:30,,,Defect-PT-InternalReview,0,0
+281,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/281,SK007 : 出荷進捗照会 : Able to update Deliver Destination name manually,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Able to update text, that should not be able to.    
+
+## References / Evidences  
+![SK007-1](/uploads/04a1ef524368404f97627760fa77cab6/SK007-1.gif)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+Able to update field that should not be able to.  
+
+## Operation Procedure  
+1. Click mag button to select deliver destination in sub-window.
+2. Select deliver destination.
+3. focus on deliver desination name.
+4. Edit deliver destination by keyboard.  
+
+## Expected Result  
+1. Cannot edit deliver destination manually at any time.  
+
+## Actual Result  
+1. Can update    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-21 07:21:12,2020-10-26 14:40:26,2020-10-26 14:40:26,,,Defect-PT-InternalReview,0,0
+291,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/291,MS024 : ルートマスタ検索 / Search_Route_Master : Margin for table button is missing,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Margin or Padding for button is missing   
+
+## References / Evidences  
+![image](/uploads/aa64e8c2616d6296a5f9b64ae29d794c/image.png)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+Button is missing margin or padding parameter.   
+leading button design to be shown not well.     
+
+## Operation Procedure  
+1. Search with 1 or more results.  
+
+## Expected Result  
+To show with margin like this  
+(sample from ms022)   
+![image](/uploads/e384e0e2fbbd18e79e8caf60d67ef6b2/image.png)  
+
+## Actual Result  
+![image](/uploads/aa64e8c2616d6296a5f9b64ae29d794c/image.png)  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-10-27 03:41:19,2020-10-30 08:43:16,2020-10-30 08:43:15,,,"Defect-PT-InternalReview,Doing",0,0
+292,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/292,NK012 : 入庫実績問い合わせ / Receiving_Progress_Inquiry : Able to update Deliver Destination name manually,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Able to update text, that should not be able to.    
+
+## References / Evidences  
+(This is gi from SK007, but the same case was occurring in NK012)  
+![SK007-1](/uploads/04a1ef524368404f97627760fa77cab6/SK007-1.gif)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+Able to update field that should not be able to.  
+
+## Operation Procedure  
+1. Click mag button to select deliver destination in sub-window.
+2. Select deliver destination.
+3. focus on deliver desination name.
+4. Edit deliver destination by keyboard.  
+
+## Expected Result  
+1. Cannot edit deliver destination manually at any time.  
+
+## Actual Result  
+1. Can update    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-10-27 03:46:09,2020-10-30 08:43:13,2020-10-30 08:43:13,,,"Defect-PT-InternalReview,Doing",0,0
+294,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/294,SK008 : 出荷進捗照会詳細 / Shipping_Progress_Inquiry_Detail,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Table has horitonzal scroll    
+
+## References / Evidences  
+![image](/uploads/bdb6f97957808e3104ae8942d13d7ffa/image.png)  
+
+## Function With Error  
+Table layout  
+
+## What Error Occurred  
+Would be better to remove horizontal scroll  
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Table is shown in 1 screen, without need of scroll    
+
+## Actual Result  
+Table has scroll bar    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+![image](/uploads/c7d48d75e8589347628e5d989f4f7b10/image.png)",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-27 06:34:47,2020-10-27 13:55:20,2020-10-27 13:55:20,,,Defect-PT-InternalReview,0,0
+295,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/295,PT SK013 fix to disabled date after search,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+SK013 on OLD_LOMOS will disable nhDate after search. In current lomos it is not implemented. 
+
+## References / Evidences  
+Paste screen capture, or error log text here  
+
+## Function With Error  
+date field 
+
+## What Error Occurred  
+not being disabled after search  
+
+## Operation Procedure  
+enter correct date and press search
+
+## Expected Result  
+the date should be disabled
+
+## Actual Result  
+the date is not being disabled
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Migration for date disability is not being implemented
+
+## What was the root cause?  
+Developer Miss PG
+
+## How can this be prevented from next time?  
+aware of field being disabled
+
+## What was changed to resolve this?  
+Change the date to disabled after search
+
+## How was it changed to resolve this?  
+change SK013.xhtml and SK013.java
+
+## References / Evidences  
+Paste screen capture after update",AUT-Iskandar,iskandar,AUT-Iskandar,iskandar,No,No,,2020-10-27 13:54:52,2020-10-27 14:30:01,2020-10-27 14:30:01,,,Defect-PT-InternalReview,0,0
+298,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/298,MS025 : ルートマスタ設定 / Route_Master_Settings : Message Not fully shown,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Enter summary here  
+
+## References / Evidences  
+Actual message
+![image](/uploads/3301b893e23ed33ab5b2ed2b9ea375e0/image.png)    
+![image](/uploads/a79a95437abc4d1424e0b507d1b42c7a/image.png)  
+
+
+Expected
+![image](/uploads/31cbca59970dd646fe6fcd7d1853e61c/image.png)  
+![image](/uploads/7d9d7d0f007358857364fb8ff6650422/image.png)  
+
+## Function With Error  
+Error message  
+
+## What Error Occurred  
+Word ""Route"" is missing in message, when delete and add item.  
+
+## Operation Procedure  
+1. Add new item, see the message.
+
+1. Delete added item, see the message.  
+
+## Expected Result  
+As shown in OLD LOMOS capture, with word ROUTE inside message.  
+
+## Actual Result  
+Word ""Route"" is missing in message.   
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-11-04 07:29:54,2020-11-09 05:42:23,2020-11-09 05:42:23,,,Defect-PT-InternalReview,0,0
+299,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/299,ZK007 : 在庫ステータス管理 / Stock_Status_Management : Field is not shown as required field,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Dropdown is not shown as required field.  
+
+## References / Evidences  
+IN NEW LOMOS  
+![image](/uploads/ad6af906eaf9f67e4028474ba9fd3e90/image.png)  
+  
+IN OLD LOMOS    
+![image](/uploads/e750a94ee9590dea9c136b1c6f86872b/image.png)   
+   
+## Function With Error  
+Dropdown related UI  
+
+## What Error Occurred  
+Not shown as required field.  
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Inventory status is shown as required field.  
+
+## Actual Result  
+Inventory status is NOT shown as required field.  
+ 
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-11-05 03:41:25,2020-11-09 05:42:12,2020-11-09 05:42:12,,,Defect-PT-InternalReview,0,0
+301,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/301,List export feature is not working as expected,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Export button does not export csv file in `D:/csvprint` folder in VM.  
+
+## References / Evidences  
+RPTN002  
+![RPTN002-1](/uploads/74999eee8431f78bd02e5a12a6ff54b7/RPTN002-1.gif)  
+  
+RPTN003
+![RPTN003-1](/uploads/13bc1de6a3b6f5c40b2313f49d1577d4/RPTN003-1.gif)  
+
+RPTN004  
+![RPTN004-1](/uploads/b87ed24b0e8eb582e4cb98e48131c043/RPTN004-1.gif)  
+  
+RPTN006  
+![RPTN006-1](/uploads/e55faad7b9eeeb6c8826b4c667df8678/RPTN006-1.gif)  
+
+## Function With Error  
+Export csv  
+
+## What Error Occurred  
+csv is not exported  
+
+## Operation Procedure  
+1. Open NK screen and apply actions as shown in gif  
+
+## Expected Result  
+1. CSV is exported in VM `D:/csvprint`   
+
+## Actual Result  
+1. CSV is not exported   
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-11-09 05:18:31,2020-11-10 06:52:52,2020-11-10 06:51:39,,,Defect-PT-InternalReview,0,0
+302,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/302,RPTN002 : 棚卸差異リスト / Export_Inventory_Diff_List : System Error,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+System error occurs when export button is pressed.    
+
+## References / Evidences  
+![RPTN002-1](/uploads/c9726d30edd224970b8654ec4bf100bf/RPTN002-1.gif)  
+
+## Function With Error  
+CSV Export  
+
+## What Error Occurred  
+System Error    
+
+## Operation Procedure  
+1. Start inventory for any zone.
+2. Edit any content in inventory.
+3. Select check of edited inventory.  
+4. Click Export Diff List Export button to export RPTN002 csv.
+
+## Expected Result  
+1. CSV gets exported in `D:csvprint` in VM.  
+
+## Actual Result  
+1. System Error
+2. CSV not exported (#301)  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-11-09 05:23:00,2020-11-10 06:54:14,2020-11-10 06:54:13,,,"Defect-PT-InternalReview,Doing",0,0
+354,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/354,RPTN002 - Message says No Diff to report even after update.,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Message says No Diff to report even after update,  
+Report is exported as expected..
+
+## References / Evidences  
+![RPTN002-InventoryDiff](/uploads/a3056ee6bbfb6c6a2aaef13517e07d2f/RPTN002-InventoryDiff.gif)  
+
+## Function With Error  
+Check for diff made.  
+
+## What Error Occurred  
+Being detected as No Diff, even after I have updated inventory content.  
+
+## Operation Procedure  
+1. In VM access TN002
+2. Update any inventory, change any item count.
+3. Click button to export diff in inventory.  
+
+## Expected Result  
+Message says export done.
+CSV is exported.  
+
+## Actual Result  
+Message says no diff.
+CSV is exported.  
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-11-13 14:00:30,2020-11-18 06:06:21,2020-11-18 06:06:21,,,Defect-PT-InternalReview,0,0
+355,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/355,RPTN002/RPTN003 - Wrong CSV name,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Exported CSV file name seems different with the screen name specified in SVN, for RPTN002 and RPTN003.
+
+IN SVN
+RPTN002 -> Inventory Diff
+RPTN003 -> Inventory List
+RPTN004 -> Inventory Result List
+RPTN006 -> Inventory White List List
+
+## References / Evidences  
+![image](/uploads/91e1dfa2b6f60293d53d5316609f557e/image.png)  
+
+## Function With Error  
+CSV file name  
+
+## What Error Occurred  
+as noted in summary.  
+
+## Operation Procedure  
+Export each csv in TN002 and TN001  
+
+## Expected Result  
+CSV file name is shown as expected in SVN  
+
+## Actual Result  
+CSV file name is shown is different with SVN  
+ 
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-11-13 14:12:57,2020-11-17 06:22:52,2020-11-17 06:22:52,,,"Defect-PT-InternalReview,To Do",0,0
+356,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/356,[QA] About content of CSV with RPTN002 -> Inventory Diff,Closed,"Currently for zone `FF`, when I changed only 2 items,  
+following csv content was exported.  
+
+may I confirm followings.
+
+1. Items that are NOT changes is expected to show in csv.
+2. Following data is ALL data that is expected to be shown for `FF` data.
+
+```
+0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	1	1	0	4902777465579	 	 	1	1
+0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	31138	31128	-10	4902777465579	001	 	1	2
+0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	100	100	0	4902777465579	1	20150404	1	3
+0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	88	78	-10	4902777465579	48	20150911	1	4
+0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	7998	7998	0	4902777465579	H000000001	20130706	1	5
+0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	11	11	0	4902777465579	LOT001	20000101	1	6
+```",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-11-13 14:20:32,2020-11-18 06:06:15,2020-11-18 06:06:15,,,Defect-PT-InternalReview,0,0
+357,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/357,SK015 : 出荷実績進捗明細 / Shipping_Result_Progress_Statement : UI Diff with OLD LOMOS,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+2 section in SK015 is different with OLD LOMOS
+
+## References / Evidences  
+In this screen  
+![image](/uploads/2b36a8a7174387bdc2b8fcf743f1a9be/image.png)    
+
+cell is not properly set. and value is not shown.   
+![image](/uploads/167e6d79e63fcd6998bacdf0f7952d6c/image.png)  
+
+Text shown here is different  
+![image](/uploads/c53f3e96cda12b8186db204585e80c29/image.png)  
+
+OLD LOMOS SAMPLE  
+![image](/uploads/0426d9cd8a2fb4b83ed66dd995bf3059/image.png)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+1. Table layout
+2. Table header text  
+
+## Operation Procedure  
+1. None   
+
+## Expected Result  
+Shown in similar way with OLD LOMOS    
+
+## Actual Result  
+Some text is different, and table is corrupted.    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-11-13 14:32:33,2020-11-26 04:59:59,2020-11-26 04:59:59,,,Defect-PT-InternalReview,0,0
+362,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/362,SK010 : 出荷実績問い合わせ / Shipping_Result_Inquiry : Required field color update,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+Required field cell background color is not exact same as OLD LOMOS.  
+    
+## References / Evidences  
+![image](/uploads/fddc77c425acdb59110b62a1161d5c11/image.png)  
+  
+![image](/uploads/a605eabaf4bd841907bf12048dc09fb3/image.png)  
+  
+
+## Function With Error  
+Required field UI  
+
+## What Error Occurred  
+Followings are shown as required field, but is actually not.  
+1. Deliver Destination Name  
+2. Deliver Date TO     
+
+After check with FAE, conclusion, please update as following 
+1. Deliver Destination Name : Is NOT shown as required field.
+    - **This needs to be shown as non-required field.**  
+2. Deliver Date TO : Is shown as required field.
+    - **This can remain as it is. No updates are needed.**    
+
+## Operation Procedure  
+1. None  
+
+## Expected Result  
+1. Deliver Destination Name : Is NOT shown as required field.
+    - **This needs to be shown as non-required field.**  
+2. Deliver Date TO : Is shown as required field.
+    - **This can remain as it is. No updates are needed.**    
+
+## Actual Result  
+1. Deliver Destination Name : Is shown as required field.    
+2. Deliver Date TO : Is shown as required field.    
+
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-11-17 02:42:21,2020-11-17 06:15:07,2020-11-17 06:15:07,,,Defect-PT-InternalReview,0,0
+371,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/371,(result) PT UI review_TR004:出荷実績履歴参照（商品別）/ shipping_redult_histry_inquiry_by_item,Closed,"'# ↓Enter when creating defect issue↓  
+
+## Defect Summary  
+
+Please follow UI and rules.
+
+1. evi#all 商品コード is a required contents. It should be added '*'next to 商品コード.
+
+
+
+2. evi#8 商品コード,JANCD,ITFCD are left-justification.
+
+
+## References / Evidences  
+![image](/uploads/3556195c25de4747357af5fe1b5c7eb9/image.png)
+![image](/uploads/47a02841759df773112cdc62c33be22f/image.png)
+
+![image](/uploads/c163348ba97ae3eef8abbd53c3f6b0a4/image.png)
+![image](/uploads/21354b02e08d917f3ae1449ae40afcd3/image.png)
+
+## Function With Error  
+none
+## What Error Occurred  
+none
+## Operation Procedure  
+
+1. Please add '*' next to 商品コード
+2. These code are left-justification. Please change them to center-justification.
+
+## Expected Result  
+It will become same as UI design.
+## Actual Result  
+none
+---
+
+# ↓Enter when issue is resolved↓  
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update","Hattori, Michiyo",hattori,Kent Loong,kentloong,No,No,,2020-11-20 10:02:23,2020-11-23 03:35:10,2020-11-23 03:35:10,,,Defect-PT-InternalReview,0,0
