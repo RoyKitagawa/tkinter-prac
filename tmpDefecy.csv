@@ -1,0 +1,573 @@
+Issue ID,URL,Title,State,Description,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
+199,url,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 10:13,2020/9/25 8:17,2020/9/25 8:17,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+199,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/199,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 10:55,2020/9/25 8:16,2020/9/25 8:16,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+200,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/200,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 11:04,2020/9/25 8:16,2020/9/25 8:16,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+202,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/202,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 11:16,2020/9/29 7:24,2020/9/29 7:24,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+203,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/203,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 11:20,2020/9/25 8:54,2020/9/25 8:54,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+204,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/204,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 11:23,2020/9/29 7:23,2020/9/29 7:23,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+213,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/213,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 3:45,2020/9/24 5:29,2020/9/24 5:28,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+214,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/214,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/24 3:51,2020/10/1 5:50,2020/10/1 5:50,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+215,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/215,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/24 3:57,2020/9/25 8:29,2020/9/25 8:29,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+216,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/216,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 4:01,2020/9/25 3:28,2020/9/25 2:49,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+219,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/219,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 5:54,2020/9/25 7:08,2020/9/25 7:08,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+220,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/220,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 6:00,2020/9/28 1:13,2020/9/25 7:08,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+221,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/221,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/24 7:25,2020/10/1 5:50,2020/10/1 5:50,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+222,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/222,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 7:30,2020/9/28 1:22,2020/9/28 1:22,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+224,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/224,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/24 10:27,2020/10/1 5:50,2020/10/1 5:50,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+228,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/228,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/29 7:16,2020/10/1 5:51,2020/10/1 5:51,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+229,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/229,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/29 9:01,2020/10/16 6:15,2020/10/16 6:15,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+230,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/230,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/9/29 9:19,2020/10/22 5:35,2020/10/22 5:35,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+240,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/240,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 2:52,2020/10/5 0:57,2020/10/5 0:57,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+241,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/241,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 3:17,2020/10/5 0:57,2020/10/5 0:57,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+242,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/242,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 3:31,2020/10/5 0:57,2020/10/5 0:57,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+243,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/243,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 3:52,2020/10/5 0:57,2020/10/5 0:57,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+244,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/244,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 3:57,2020/10/6 3:08,2020/10/6 3:08,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+246,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/246,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/10/2 4:26,2020/10/6 3:02,2020/10/6 3:02,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+247,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/247,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/10/2 7:19,2020/10/9 2:33,2020/10/9 2:33,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+248,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/248,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/10/2 7:50,2020/10/14 8:19,2020/10/9 2:56,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+249,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/249,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/10/2 8:00,2020/10/14 7:33,2020/10/14 7:33,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+258,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/258,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 1:34,2020/10/9 2:42,2020/10/9 2:42,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+259,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/259,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 1:49,2020/10/9 2:04,2020/10/9 2:04,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+260,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/260,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 1:57,2020/10/27 4:04,2020/10/27 4:04,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+261,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/261,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 2:10,2020/10/27 4:03,2020/10/27 4:03,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+262,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/262,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 2:26,2020/10/27 4:03,2020/10/27 4:03,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+274,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/274,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 2:26,2020/10/27 4:03,2020/10/27 4:03,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+276,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/276,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/10/20 7:28,2020/10/23 5:55,2020/10/23 5:55,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+277,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/277,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/10/20 7:33,2020/10/22 5:35,2020/10/22 5:35,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+279,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/279,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/10/20 9:22,2020/10/22 5:35,2020/10/22 5:35,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+280,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/280,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 2:26,2020/10/27 4:03,2020/10/27 4:03,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+281,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/281,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/21 7:21,2020/10/26 14:40,2020/10/26 14:40,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+291,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/291,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/10/27 3:41,2020/10/30 8:43,2020/10/30 8:43,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+292,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/292,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/10/27 3:46,2020/10/30 8:43,2020/10/30 8:43,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+294,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/294,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/27 6:34,2020/10/27 13:55,2020/10/27 13:55,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+295,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/295,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",AUT-Iskandar,iskandar,AUT-Iskandar,iskandar,No,No,,2020/10/27 13:54,2020/10/27 14:30,2020/10/27 14:30,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+298,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/298,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/11/4 7:29,2020/11/9 5:42,2020/11/9 5:42,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+299,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/299,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/11/5 3:41,2020/11/9 5:42,2020/11/9 5:42,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+301,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/301,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/11/9 5:18,2020/11/10 6:52,2020/11/10 6:51,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+302,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/302,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/11/9 5:23,2020/11/10 6:54,2020/11/10 6:54,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+354,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/354,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/11/13 14:00,2020/11/18 6:06,2020/11/18 6:06,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+355,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/355,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/11/13 14:12,2020/11/17 6:22,2020/11/17 6:22,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+356,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/356,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/11/13 14:20,2020/11/18 6:06,2020/11/18 6:06,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0
+357,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/357,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Nomura,nomura,No,No,,2020/11/13 14:32,2020/11/26 4:59,2020/11/26 4:59,,,"Defect-PT-InternalReview,Doing,Cause-At-PT,At-Phase-PT,Cause-Phase-PT",0,0
+362,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/362,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/11/17 2:42,2020/11/17 6:15,2020/11/17 6:15,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-UI,Cause-Phase-UI",0,0
+371,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/371,title,closed,"### Content
+a
+b
+
+### Cause
+c
+d
+
+### Action
+e
+f","Hattori, Michiyo",hattori,Kent Loong,kentloong,No,No,,2020/11/20 10:02,2020/11/23 3:35,2020/11/23 3:35,,,"Defect-PT-InternalReview,Doing,Cause-At-PG,At-Phase-PG,Cause-Phase-PG",0,0

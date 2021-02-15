@@ -2,6 +2,7 @@ import os
 import csv_reader
 import arr_util
 import tkinter as tk
+import tkinter.ttk as ttk
 import tkinter.filedialog
 from tkinter import messagebox
 
@@ -9,25 +10,38 @@ from tkinter import messagebox
 class LABEL:
     NONE = ""
     QA = "QA"
-    ISSUE = "ISSUE"
+    DEFECT = "Defect"
+    CAUSE_PHASE_UI = "Cause-Phase-UI"
+    CAUSE_PHASE_SS = "Cause-Phase-SS"
+    CAUSE_PHASE_PG = "Cause-Phase-PG"
+    CAUSE_PHASE_PT = "Cause-Phase-PT"
+    CAUSE_PHASE_IT = "Cause-Phase-IT"
+    AT_PHASE_UI = "At-Phase-UI"
+    AT_PHASE_SS = "At-Phase-SS"
+    AT_PHASE_PG = "At-Phase-PG"
+    AT_PHASE_PT = "At-Phase-PT"
+    AT_PHASE_IT = "At-Phase-IT"
 
 
 class CSV_CONVERT_TARGET:
     NONE = 0
-    QA = 1
-    ISSUE = 2
+    QA_ISSUE = 1
+    DEFECT = 2
 
 
 class SEPARATOR:
-    QA_CONTENT = "### QA Content"
-    QA_RESULT = "### QA Result"
+    QA_ISSUE_CONTENT = "### Content"
+    QA_ISSUE_RESULT = "### Result"
+    DEFECT_CONTENT = "### Content"
+    DEFECT_CAUSE = "### Cause"
+    DEFECT_ACTION = "### Action"
 
 class INDEX:
     EMPTY = -1              # For blank cell
     ISSUE_ID = 0
     URL = 1
     TITLE = 2
-    State = 3               # Open or Closed
+    STATE = 3               # Open or Closed
     DESCRIPTION = 4
     AUTHOR = 5
     AUTHOR_USER_NAME = 6    # Will not use
@@ -46,9 +60,9 @@ class INDEX:
     TIME_SPENT = 19
 
     ROWS_ALL = []
-    ROWS_QA = [
+    ROWS_QA_ISSUE = [
         EMPTY,          # No
-        EMPTY,          # Status
+        STATE,
         CREATE_DATE,
         AUTHOR,
         EMPTY,          # Hidden Row
@@ -67,33 +81,69 @@ class INDEX:
         DESCRIPTION,    # To be separated for only result
         EMPTY,          # Remark
     ]
+    ROWS_DEFECT = [
+        EMPTY,          # No
+        EMPTY,          # Invalid Marker
+        EMPTY,          # Status
+        EMPTY,          # Management Identification (Add in target phase from label)
+        EMPTY,          # Management ID
+        EMPTY,          # Defect Management No
+        AUTHOR,
+        CREATE_DATE,
+        CREATE_DATE,
+        DUE_DATE,
+        TITLE,
+        DESCRIPTION,    # Defect Content
+        EMPTY,          # Scenario ID
+        EMPTY,          # Test Case No
+        EMPTY,          # Test Case ID
+        EMPTY,          # Test Item No
+        EMPTY,          # Subsystem Name
+        EMPTY,          # Operation Process Name
+        EMPTY,          # Process Name
+        EMPTY,          # Frequency
+        EMPTY,          # Affect Degree
+        EMPTY,          # Importance
+        EMPTY,          # Free Field
+        EMPTY,          # Attachment
+        ASSIGNEE,
+        CREATE_DATE,
+        DUE_DATE,
+        CLOSED_DATE,
+        EMPTY,          # Release Plan Date
+        EMPTY,          # Release Complete Date
+        DESCRIPTION,    # Defect Cause
+        DESCRIPTION,    # Defect Action
+        EMPTY,          # Cause Subsystem Name
+        EMPTY,          # Cause Operation Process Name
+        EMPTY,          # Cause Process Name
+        EMPTY,          # Development Company
+        ASSIGNEE,       # Developer
+        LABEL,          # Cause Phase
+        EMPTY,          # Cause Category
+        EMPTY,          # Cause Type
+        EMPTY,          # Cause Detail
+        EMPTY,          # Defect Content
+        EMPTY,          # Defect Cause
+        EMPTY,          # Related Defect No
+        EMPTY,          # Free Slot
+        EMPTY,          # Attachment
+        AUTHOR,         # Verifier
+        DUE_DATE,
+        CLOSED_DATE,
+        EMPTY,          # Free Slot
+        EMPTY,          # Attachment
+        EMPTY,          # Modify Target
+    ]
 
 
 # App for picking needed info from csv, and formatting in new csv with only needed data, in specified order
 class AppCsvContentPicker:
 
-    # Basic csv index info about csv exported from GitLab
-
-    # INDEX_EMPTY_CELL = -1
-    # INDEX_ISSUE_ID = 0
-    # INDEX_URL = 1
-    # INDEX_TITLE = 2
-    # INDEX_State = 3             # Open or Closed
-    # INDEX_DESCRIPTION = 4
-    # INDEX_AUTHOR = 5
-    # INDEX_AUTHOR_USER_NAME = 6  # Will not use
-    # INDEX_ASSIGNEE = 7
-    # INDEX_CONFIDENTIAL = 8      # Will not use
-    # INDEX_
-    # INDEX_LABEL = 17
-    # INDEX_TIME_ESTIMATE = 18
-    # INDEX_TIME_SPENT = 19
-
-    # # Index for each label, for each set
-    # INDEX_LABEL_QA_FOR_SET_QA = 3
-
     # File type
     FILE_TYPE_CSV = ("CSV Files", "*.csv")
+    OUTPUT_TYPE_QA_ISSUE = "QA_Issues"
+    OUTPUT_TYPE_DEFECT = "Defect"
 
     def __init__(self):
 
@@ -116,10 +166,18 @@ class AppCsvContentPicker:
         # Input button
         input_btn = tk.Button(self.root, text='select file', command=self.on_button_input_file_browse_button)
         input_btn.grid(padx=10, pady=(0, 10), row=1, column=1)
+        # Output Type Label
+        output_type_label = tk.Label(self.root, text='Output Type', anchor='w')
+        output_type_label.grid(padx=10, pady=(10, 0), row=2, column=0, sticky=tk.W+tk.E)
+        # Output dropdown
+        self.output_combo = ttk.Combobox(self.root, state='readonly')
+        self.output_combo['values'] = (self.OUTPUT_TYPE_QA_ISSUE, self.OUTPUT_TYPE_DEFECT)
+        self.output_combo.current(0)
+        self.output_combo.grid(padx=10, pady=(0, 10), row=3, column=0, sticky=tk.W+tk.E)
 
         # Output button
         output_btn = tk.Button(self.root, text='save output', command=self.on_button_save_file)
-        output_btn.grid(padx=10, pady=(0, 10), row=2, column=0)
+        output_btn.grid(padx=10, pady=(0, 10), row=3, column=1)
 
         self.root.mainloop()
         # TkUtil.run(self.root)
@@ -131,10 +189,16 @@ class AppCsvContentPicker:
         self.input_file_path.insert(tk.END, result)
 
     def on_button_save_file(self):
+        target = self.output_combo.get()
+        self.csv_convert_target = CSV_CONVERT_TARGET.NONE
+        if self.OUTPUT_TYPE_DEFECT in target:
+            self.csv_convert_target = CSV_CONVERT_TARGET.DEFECT
+        elif self.OUTPUT_TYPE_QA_ISSUE in target:
+            self.csv_convert_target = CSV_CONVERT_TARGET.QA_ISSUE
+
         if self.csv_convert_target is CSV_CONVERT_TARGET.NONE:
-            self.csv_convert_target = CSV_CONVERT_TARGET.QA
-            # messagebox.showinfo('Notification', 'No target is selected.\nPlease select csv convert target.')
-            # return
+            messagebox.showinfo('Notification', 'No target is selected.\nPlease select csv convert target.')
+            return
 
         result = tk.filedialog.asksaveasfilename(
             filetypes=[self.FILE_TYPE_CSV], initialdir=os.path.abspath(os.path.dirname(__file__)))
@@ -144,10 +208,10 @@ class AppCsvContentPicker:
 
         # change this depending on target.
         target_label = LABEL.NONE
-        if self.csv_convert_target is CSV_CONVERT_TARGET.QA:
+        if self.csv_convert_target is CSV_CONVERT_TARGET.QA_ISSUE:
             target_label = LABEL.QA
-        elif self.csv_convert_target is CSV_CONVERT_TARGET.ISSUE:
-            target_label = LABEL.ISSUE
+        elif self.csv_convert_target is CSV_CONVERT_TARGET.DEFECT:
+            target_label = LABEL.DEFECT
 
         # Get data for saving
         data = self.get_csv_data_from_input_path(expected_label=target_label)
@@ -157,10 +221,10 @@ class AppCsvContentPicker:
             messagebox.showinfo('Notification', 'No data found from input.\nPlease check if file path exists with expected CSV.')
             return
 
-        if self.csv_convert_target is CSV_CONVERT_TARGET.QA:
-            data = CsvFormatter.format_for_qa(data)
-        elif self.csv_convert_target is CSV_CONVERT_TARGET.ISSUE:
-            data = CsvFormatter.format_for_qa(data) # To be changed later
+        if self.csv_convert_target is CSV_CONVERT_TARGET.QA_ISSUE:
+            data = CsvFormatter.format_for_qa_issue(data)
+        elif self.csv_convert_target is CSV_CONVERT_TARGET.DEFECT:
+            data = CsvFormatter.format_for_defect(data)
         else:
             messagebox.showinfo('Notification', 'Unexpected target is selected.\nWill stop csv export.')
             return
@@ -204,22 +268,45 @@ class AppCsvContentPicker:
 
 class CsvFormatter:
     @staticmethod
-    def format_for_qa(data):
-        formatted_data = CsvFormatter.format(data, INDEX.ROWS_QA)
+    def format_for_qa_issue(data):
+        formatted_data = CsvFormatter.format(data, INDEX.ROWS_QA_ISSUE)
 
         col_index = 0
         loop_flg = True
         while loop_flg:
             # Index 12, format for qa content.
             # Index 17, format for qa response.
-            text = formatted_data[col_index][12].split(SEPARATOR.QA_CONTENT)
-            if len(text) > 1:
-                result = text[1]
-                result = result.split(SEPARATOR.QA_RESULT)
+            description = formatted_data[col_index][12]
 
-                if len(result) > 1:
-                    formatted_data[col_index][12] = result[0].strip("\n")
-                    formatted_data[col_index][17] = result[1].strip("\n")
+            formatted_data[col_index][12] = CsvFormatter.get_qa_issue_content(description)
+            formatted_data[col_index][17] = CsvFormatter.get_qa_issue_result(description)
+
+            col_index += 1
+            if col_index >= len(data):
+                loop_flg = False
+
+        return formatted_data
+
+    @staticmethod
+    def format_for_defect(data):
+        formatted_data = CsvFormatter.format(data, INDEX.ROWS_DEFECT)
+
+        col_index = 0
+        loop_flg = True
+        while loop_flg:
+            # 3 Phase Info
+            # 37 Cause phase
+            # 11 Defect Content
+            # 30 Defect Cause
+            # 31 Defect Action
+            label = formatted_data[col_index][37]
+            description = formatted_data[col_index][11]
+
+            formatted_data[col_index][3] = CsvFormatter.get_at_phase_info(label)
+            formatted_data[col_index][37] = CsvFormatter.get_cause_phase_info(label)
+            formatted_data[col_index][11] = CsvFormatter.get_defect_content(description)
+            formatted_data[col_index][30] = CsvFormatter.get_defect_cause(description)
+            formatted_data[col_index][31] = CsvFormatter.get_defect_action(description)
 
             col_index += 1
             if col_index >= len(data):
@@ -234,7 +321,7 @@ class CsvFormatter:
 
         # Prepare empty array
         output = []
-        for row in range(len(data[0])):
+        for row in range(len(data)):
             output.append([])
 
         col_index = 0
@@ -254,6 +341,94 @@ class CsvFormatter:
                 loop_flg = False
 
         return output
+
+    @staticmethod
+    def get_cause_phase_info(label: str):
+        cause_phase = ""
+        if LABEL.CAUSE_PHASE_UI in label:
+            cause_phase = "UI"
+        elif LABEL.CAUSE_PHASE_SS in label:
+            cause_phase = "SS"
+        elif LABEL.CAUSE_PHASE_PG in label:
+            cause_phase = "PG"
+        elif LABEL.CAUSE_PHASE_PT in label:
+            cause_phase = "PT"
+        elif LABEL.CAUSE_PHASE_IT in label:
+            cause_phase = "IT"
+        return cause_phase
+
+    @staticmethod
+    def get_at_phase_info(label: str):
+        at_phase = ""
+        if LABEL.AT_PHASE_UI in label:
+            at_phase = "UI"
+        elif LABEL.AT_PHASE_SS in label:
+            at_phase = "SS"
+        elif LABEL.AT_PHASE_PG in label:
+            at_phase = "PG"
+        elif LABEL.AT_PHASE_PT in label:
+            at_phase = "PT"
+        elif LABEL.AT_PHASE_IT in label:
+            at_phase = "IT"
+        return at_phase
+
+    @staticmethod
+    def get_qa_issue_content(description: str = ""):
+        if len(description) <= 0:
+            return ""
+
+        text = description.split(SEPARATOR.QA_ISSUE_CONTENT)
+        if len(text) <= 1:
+            return text[0].strip("\n")
+
+        text = text[1].split(SEPARATOR.QA_ISSUE_RESULT)
+        return text[0].strip("\n")
+
+    @staticmethod
+    def get_qa_issue_result(description: str = ""):
+        if len(description) <= 0:
+            return ""
+
+        text = description.split(SEPARATOR.QA_ISSUE_RESULT)
+        if len(text) <= 1:
+            return text[0].strip("\n")
+
+        return text[1].strip("\n")
+
+    @staticmethod
+    def get_defect_content(description: str = ""):
+        if len(description) <= 0:
+            return ""
+
+        text = description.split(SEPARATOR.DEFECT_CONTENT)
+        if len(text) <= 1:
+            return text[0].strip("\n")
+
+        text = text[1].split(SEPARATOR.DEFECT_CAUSE)
+        return text[0].strip("\n")
+
+    @staticmethod
+    def get_defect_cause(description: str = ""):
+        if len(description) <= 0:
+            return ""
+
+        text = description.split(SEPARATOR.DEFECT_CAUSE)
+        if len(text) <= 1:
+            return text[0].strip("\n")
+
+        text = text[1].split(SEPARATOR.DEFECT_ACTION)
+        return text[0].strip("\n")
+
+    @staticmethod
+    def get_defect_action(description: str = ""):
+        if len(description) <= 0:
+            return ""
+
+        text = description.split(SEPARATOR.DEFECT_ACTION)
+        if len(text) <= 1:
+            return text[0].strip("\n")
+
+        return text[1].strip("\n")
 
 
 if __name__ == '__main__':
