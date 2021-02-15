@@ -1,0 +1,384 @@
+"Defect-PT-InternalReview,Doing,QA",,2020/9/18 11:23,Nomura,,,MS004 : 邏榊刀蜈医・繧ｹ繧ｿ讀懃ｴ｢ / Search_Deliver_Destination :  Button layout in table item,,"'# 竊摘nter when creating defect issue竊・ 
+
+## Defect Summary  
+Setting button is missing margin.  
+
+## References / Evidences  
+![image](/uploads/5cd103702c0ac3638ab222a006a63294/image.png)![image](/uploads/c40b93fc64f8f93471138d8656c94c1f/image.png)
+
+## Function With Error  
+Layout  
+
+## What Error Occurred  
+Button is missing margin, causing each buttons to be squashed to each other    
+
+## Operation Procedure  
+Run any search with more than 1 result    
+
+## Expected Result  
+Button is shown like OLD_LOMOS, with margin  
+
+## Actual Result  
+Button is shown without margin  
+
+---
+
+# 竊摘nter when issue is resolved竊・ 
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,,2020/9/29 7:23,,"'# 竊摘nter when creating defect issue竊・ 
+
+## Defect Summary  
+Setting button is missing margin.  
+
+## References / Evidences  
+![image](/uploads/5cd103702c0ac3638ab222a006a63294/image.png)![image](/uploads/c40b93fc64f8f93471138d8656c94c1f/image.png)
+
+## Function With Error  
+Layout  
+
+## What Error Occurred  
+Button is missing margin, causing each buttons to be squashed to each other    
+
+## Operation Procedure  
+Run any search with more than 1 result    
+
+## Expected Result  
+Button is shown like OLD_LOMOS, with margin  
+
+## Actual Result  
+Button is shown without margin  
+
+---
+
+# 竊摘nter when issue is resolved竊・ 
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",
+"Defect-PT-InternalReview,Doing,QA",,2020/9/24 3:51,Nomura,,,NK013 : 蜈･蠎ｫ騾ｲ謐・: Table height mismatch,,"'# 竊摘nter when creating defect issue竊・ 
+
+## Defect Summary  
+Horizontal line positioning is not match for button column, and code column.  
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/eeae9c3dd5b18931d37be8fa56ca7292/image.png)
+  
+**In NEW LOMOS**  
+![image](/uploads/b4afb187f462b36461fe6db8fbe89cb6/image.png)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+Border of table does not match other cells    
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Horizontal border is always at same Y Pos for whole row.  
+
+## Actual Result  
+Horizontal border Y Pos is differect at detail button column, and every other column.  
+
+---
+
+# 竊摘nter when issue is resolved竊・ 
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,,2020/10/1 5:50,,"'# 竊摘nter when creating defect issue竊・ 
+
+## Defect Summary  
+Horizontal line positioning is not match for button column, and code column.  
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/eeae9c3dd5b18931d37be8fa56ca7292/image.png)
+  
+**In NEW LOMOS**  
+![image](/uploads/b4afb187f462b36461fe6db8fbe89cb6/image.png)  
+
+## Function With Error  
+UI  
+
+## What Error Occurred  
+Border of table does not match other cells    
+
+## Operation Procedure  
+None  
+
+## Expected Result  
+Horizontal border is always at same Y Pos for whole row.  
+
+## Actual Result  
+Horizontal border Y Pos is differect at detail button column, and every other column.  
+
+---
+
+# 竊摘nter when issue is resolved竊・ 
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",
+"Defect-PT-InternalReview,Doing,QA",,2020/9/24 7:25,Nomura,,,NK014 : 蜈･蠎ｫ騾ｲ謐苓ｩｳ邏ｰ : Dropdown item names,,"'# 竊摘nter when creating defect issue竊・ 
+
+## Defect Summary  
+Code of first item is not shown  
+
+## References / Evidences  
+![image](/uploads/e8dc41a7bdc3a1f9163f2f797969b03d/image.png)  
+  
+## Function With Error  
+Dropdown item  
+
+## What Error Occurred  
+I see that each item is shown in format ""code:name"".
+But first item does not match that format.  
+
+## Operation Procedure  
+Click dropdown.  
+
+## Expected Result  
+Each item follow format ""code:name""  
+
+## Actual Result  
+1st item does not follow format.
+
+---
+
+# 竊摘nter when issue is resolved竊・ 
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,,2020/10/1 5:50,,"'# 竊摘nter when creating defect issue竊・ 
+
+## Defect Summary  
+Code of first item is not shown  
+
+## References / Evidences  
+![image](/uploads/e8dc41a7bdc3a1f9163f2f797969b03d/image.png)  
+  
+## Function With Error  
+Dropdown item  
+
+## What Error Occurred  
+I see that each item is shown in format ""code:name"".
+But first item does not match that format.  
+
+## Operation Procedure  
+Click dropdown.  
+
+## Expected Result  
+Each item follow format ""code:name""  
+
+## Actual Result  
+1st item does not follow format.
+
+---
+
+# 竊摘nter when issue is resolved竊・ 
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",
+"Defect-PT-InternalReview,Doing,QA",,2020/9/24 10:27,Nomura,,,NK014 : 蜈･蠎ｫ騾ｲ謐苓ｩｳ邏ｰ : Progress Bar color update,,"'# 竊摘nter when creating defect issue竊・ 
+
+## Defect Summary  
+Progress Bar color is not same as OLD LOMOS  
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/4457865a45c0f5263e8057844e6ef9c1/image.png)  
+
+**IN NEW LOMOS**  
+![image](/uploads/c23c3e884c8fbf55cbc996bad3707bf8/image.png)  
+
+## Function With Error  
+Progress Bar color  
+
+## What Error Occurred  
+Color is fixed with dark blue  
+
+## Operation Procedure  
+In NK013, select 2nd button shown.
+![image](/uploads/903f1fe277bea7bbcbb6411a1e54be6a/image.png)  
+
+## Expected Result  
+Color of 2nd progress bar becomes light blue, as in OLD LOMOS sample  
+
+## Actual Result  
+Color of 2nd progress bar stays as dark blue  
+
+---
+
+# 竊摘nter when issue is resolved竊・ 
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",Nomura,,2020/10/1 5:50,,"'# 竊摘nter when creating defect issue竊・ 
+
+## Defect Summary  
+Progress Bar color is not same as OLD LOMOS  
+
+## References / Evidences  
+**In OLD LOMOS**  
+![image](/uploads/4457865a45c0f5263e8057844e6ef9c1/image.png)  
+
+**IN NEW LOMOS**  
+![image](/uploads/c23c3e884c8fbf55cbc996bad3707bf8/image.png)  
+
+## Function With Error  
+Progress Bar color  
+
+## What Error Occurred  
+Color is fixed with dark blue  
+
+## Operation Procedure  
+In NK013, select 2nd button shown.
+![image](/uploads/903f1fe277bea7bbcbb6411a1e54be6a/image.png)  
+
+## Expected Result  
+Color of 2nd progress bar becomes light blue, as in OLD LOMOS sample  
+
+## Actual Result  
+Color of 2nd progress bar stays as dark blue  
+
+---
+
+# 竊摘nter when issue is resolved竊・ 
+
+## What was the direct cause?  
+Enter the direct cause of this  
+
+## What was the root cause?  
+Enter the root cause of this  
+
+## How can this be prevented from next time?  
+Enter how to prevent, so it will not happen in future  
+
+## What was changed to resolve this?  
+Enter which files/settings you have updated  
+
+## How was it changed to resolve this?  
+Enter what/how each files/settings have been updated  
+
+## References / Evidences  
+Paste screen capture after update",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

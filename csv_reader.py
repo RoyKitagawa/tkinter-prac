@@ -17,11 +17,12 @@ def write_csv_with_array(_content, _dst_file_path, _overwrite_if_exist=True):
     content = copy.copy(_content)
     if os.path.isfile(_dst_file_path):
         if not _overwrite_if_exist:
-            logging.warning('Write cancelled due to already existing file : ' + _dst_file_path)
+            logging.warning('Wriwrite_csv_with_arrayte cancelled due to already existing file : ' + _dst_file_path)
         else:
-            file = open(_dst_file_path, 'w')
-            file.truncate(0) # Remove all existing contents
-            file.close()
+            os.remove(_dst_file_path)
+            # file = open(_dst_file_path, 'w')
+            # file.truncate(0) # Remove all existing contents
+            # file.close()
 
     with open(_dst_file_path, 'w', newline='') as f:
         writer = csv.writer(f)
@@ -35,7 +36,10 @@ def read_csv_in_array_format(
         _start_row=0,
         _end_row=-1):
 
-    # Set all column
+    if not os.path.exists(_csv_file_path):
+        return []
+
+    # If no column is specified, set to read all columns
     if _column_indexes is None:
         _column_indexes = []
     if len(_column_indexes) <= 0:
@@ -43,10 +47,13 @@ def read_csv_in_array_format(
         for col_index in range(max_column):
             _column_indexes.append(col_index)
 
+    # Read data from specified columns, into array format
+    # Each index of array has whole data of its columns
     csv_input = []
     for index in _column_indexes:
         csv_input.append(get_column_data(_csv_file_path, index, _start_row, _end_row))
 
+    # Prepare empty array for output
     csv_output = []
     for row in range(len(csv_input[0])):
         csv_output.append([])
@@ -54,6 +61,7 @@ def read_csv_in_array_format(
     col_index = 0
     loop_flg = True
 
+    # Convert input data to proper row, column format
     while loop_flg:
         row_index = 0
         for row in range(len(csv_input)):
@@ -64,26 +72,6 @@ def read_csv_in_array_format(
             loop_flg = False
 
     return csv_output
-
-
-def print_csv_content(_file_path = DEF_CSV_FILE_PATH):
-    with open(_file_path) as f:
-        print(f.read())
-
-
-# def get_csv_string(_file_path = DEF_CSV_FILE_PATH, _row = -1, _column = -1):
-#     with open(_file_path) as f:
-#         return f.read()
-#
-#
-# def get_csv_row_col_tuple(_file_path = DEF_CSV_FILE_PATH):
-#     with open(_file_path) as f:
-#         reader = csv.reader(f);
-#         row = len(list(reader))
-#         # col = len(list(reader)[0])
-#         return row, row
-#
-#     return 0, 0
 
 
 # Start index of column is 0
@@ -98,10 +86,10 @@ def get_column_data(
 
     output = []
     with open(_file_path) as f:
-        reader = csv.reader(f);
+        reader = csv.reader(f)
 
         # Get data of column needed
-        i = 0;
+        i = 0
         for row in reader:
             if _start_row <= i <= _end_row:
                 output.append(row[column_index])
@@ -110,46 +98,29 @@ def get_column_data(
     return output
 
 
-def get_csv_column_count(_file_path = DEF_CSV_FILE_PATH):
+# Get column count in csv file
+def get_csv_column_count(_file_path=DEF_CSV_FILE_PATH):
+    aaa = get_csv_row_count(_file_path)
     with open(_file_path) as f:
-        reader = csv.reader(f);
+        reader = csv.reader(f)
         for row in reader:
-            return len(row[0])
+            return len(row)
 
     return 0
 
 
-def get_csv_row_count(_file_path = DEF_CSV_FILE_PATH):
+# Get row count in csv file
+def get_csv_row_count(_file_path=DEF_CSV_FILE_PATH):
     result = 0
     with open(_file_path) as f:
-        reader = csv.reader(f);
+        reader = csv.reader(f)
         for row in reader:
             result += 1
 
     return result
 
 
-# def get_csv_reader(_file_path = DEF_CSV_FILE_PATH):
-#     with open(_file_path) as f:
-#         reader = csv.reader(f);
-#         if reader is not None:
-#             return reader
-#
-#     print("ERROR: no reader found")
-#     return None
+def print_csv_content(_file_path = DEF_CSV_FILE_PATH):
+    with open(_file_path) as f:
+        print(f.read())
 
-
-# def get_csv_column_count(_reader):
-#     if _reader is None:
-#         print("ERROR: reader is empty")
-#         return
-#
-#     return len(list(_reader))
-
-
-# def get_csv_row_count(_reader):
-#     if _reader is None:
-#         print("ERROR: reader is empty")
-#         return
-#
-#     return len(list(_reader[0]))

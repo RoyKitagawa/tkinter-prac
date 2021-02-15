@@ -1,5 +1,5 @@
 Issue ID,URL,Title,State,Description,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
-197,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/197,MS004 : 納品先マスタ検索 / Search_Deliver_Destination : Add button position mismatch,Closed,"'# ↓Enter when creating defect issue↓
+197,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/197,MS004 : 邏榊刀蜈医・繧ｹ繧ｿ讀懃ｴ｢ / Search_Deliver_Destination : Add button position mismatch,Closed,"'# 竊摘nter when creating defect issue竊・
 
 ## Defect Summary
 Add button is positioned differently with OLD_LOMOS  
@@ -7,12 +7,12 @@ Add button is positioned differently with OLD_LOMOS
 
 ## References / Evidences
 **In OLD LOMOS**  
-<img src=""/uploads/f1b1d268fa49488be36cf5e70a3899f7/image.png"" width=""512"">　　
-<img src=""/uploads/16814275b753df799178629d9d5ba6db/image.png"" width=""512"">　　
+<img src=""/uploads/f1b1d268fa49488be36cf5e70a3899f7/image.png"" width=""512"">縲縲
+<img src=""/uploads/16814275b753df799178629d9d5ba6db/image.png"" width=""512"">縲縲
 
 **In NEW LOMOS**  
-<img src=""/uploads/007921e01eda821546bf3a549e4eae20/image.png"" width=""512"">　　
-<img src=""/uploads/ffab98655a7593879ab0ac1f6cddcd8b/image.png"" width=""512"">　　
+<img src=""/uploads/007921e01eda821546bf3a549e4eae20/image.png"" width=""512"">縲縲
+<img src=""/uploads/ffab98655a7593879ab0ac1f6cddcd8b/image.png"" width=""512"">縲縲
 
 
 ## Function With Error
@@ -37,7 +37,7 @@ Add button is not at expected position for both
 
 ---
 
-# ↓Enter when issue is resolved↓
+# 竊摘nter when issue is resolved竊・
 
 ## What was the direct cause?
 Enter the direct cause of this
@@ -52,18 +52,18 @@ Enter how to prevent, so it will not happen in future
 Enter which files/settings you have updated
 
 ## How was it changed to resolve this?
-Enter what/how each files/settings have been updated",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 10:13:34,2020-09-25 08:17:37,2020-09-25 08:17:37,,,"Defect-PT-InternalReview,Doing",0,0
-199,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/199,MS004 : 納品先マスタ検索 / Search_Deliver_Destination :  Search result message is missing,Closed,"'# ↓Enter when creating defect issue↓  
+Enter what/how each files/settings have been updated",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 10:13,2020/9/25 8:17,2020/9/25 8:17,,,"Defect-PT-InternalReview,Doing",0,0
+199,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/199,MS004 : 邏榊刀蜈医・繧ｹ繧ｿ讀懃ｴ｢ / Search_Deliver_Destination :  Search result message is missing,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Message telling search result count is missing.   
 
 ## References / Evidences  
 **In OLD LOMOS**  
-<img src=""/uploads/3983a234871e0d83ce951ba1734b64e1/image.png"">　
+<img src=""/uploads/3983a234871e0d83ce951ba1734b64e1/image.png"">縲
   
 **In NEW LOMOS**  
-<img src=""/uploads/d3e173c8efc6fb701922da452a615303/image.png"">　
+<img src=""/uploads/d3e173c8efc6fb701922da452a615303/image.png"">縲
 
 ## Function With Error  
 Log Message  
@@ -83,7 +83,7 @@ Message at header, when search is success is missing
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -101,8 +101,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 10:55:21,2020-09-25 08:16:52,2020-09-25 08:16:52,,,"Defect-PT-InternalReview,Doing",0,0
-200,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/200,MS004 : 納品先マスタ検索 / Search_Deliver_Destination : Button Alignment,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 10:55,2020/9/25 8:16,2020/9/25 8:16,,,"Defect-PT-InternalReview,Doing",0,0
+200,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/200,MS004 : 邏榊刀蜈医・繧ｹ繧ｿ讀懃ｴ｢ / Search_Deliver_Destination : Button Alignment,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Button is not aligned, and balance is not good  
@@ -136,7 +136,7 @@ Buttons are aligned like following image
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -154,8 +154,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 11:04:25,2020-09-25 08:16:16,2020-09-25 08:16:16,,,"Defect-PT-InternalReview,Doing",0,0
-202,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/202,MS004 : 納品先マスタ検索 / Search_Deliver_Destination : Tool Tip Implementation,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 11:04,2020/9/25 8:16,2020/9/25 8:16,,,"Defect-PT-InternalReview,Doing",0,0
+202,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/202,MS004 : 邏榊刀蜈医・繧ｹ繧ｿ讀懃ｴ｢ / Search_Deliver_Destination : Tool Tip Implementation,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Tool Tip for deliver destination name is missing   
@@ -182,7 +182,7 @@ Tool tip is missing
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -200,14 +200,14 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 11:16:37,2020-09-29 07:24:50,2020-09-29 07:24:50,,,"Defect-PT-InternalReview,Doing",0,0
-203,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/203,[To Be Checked] MS004 : 納品先マスタ検索 / Search_Deliver_Destination : 1 Page Item Count,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 11:16,2020/9/29 7:24,2020/9/29 7:24,,,"Defect-PT-InternalReview,Doing",0,0
+203,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/203,[To Be Checked] MS004 : 邏榊刀蜈医・繧ｹ繧ｿ讀懃ｴ｢ / Search_Deliver_Destination : 1 Page Item Count,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Table shows only 10 items per page    
 
 ## References / Evidences  
-<img src=""/uploads/3b6b24dfb66fe6e1e39c9bacb441d087/image.png"" width=""512"">　  
+<img src=""/uploads/3b6b24dfb66fe6e1e39c9bacb441d087/image.png"" width=""512"">縲  
 
 ## Function With Error  
 Max item shown in 1 page    
@@ -226,7 +226,7 @@ Run any search with more than 10 result
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -244,8 +244,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 11:20:09,2020-09-25 08:54:27,2020-09-25 08:54:27,,,"Defect-PT-InternalReview,Doing",0,0
-204,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/204,MS004 : 納品先マスタ検索 / Search_Deliver_Destination :  Button layout in table item,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 11:20,2020/9/25 8:54,2020/9/25 8:54,,,"Defect-PT-InternalReview,Doing",0,0
+204,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/204,MS004 : 邏榊刀蜈医・繧ｹ繧ｿ讀懃ｴ｢ / Search_Deliver_Destination :  Button layout in table item,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Setting button is missing margin.  
@@ -270,7 +270,7 @@ Button is shown without margin
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -288,8 +288,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-18 11:23:25,2020-09-29 07:23:46,2020-09-29 07:23:46,,,"Defect-PT-InternalReview,Doing,QA",0,0
-213,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/213,NK013 : 入庫進捗 : Footer area is not shown,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/18 11:23,2020/9/29 7:23,2020/9/29 7:23,,,"Defect-PT-InternalReview,Doing,QA",0,0
+213,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/213,NK013 : 蜈･蠎ｫ騾ｲ謐・: Footer area is not shown,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Footer area and message is not shown.  
@@ -321,7 +321,7 @@ No footer area, with no message.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 MONITOR  
@@ -339,8 +339,8 @@ Monitor
 Switch to use better monitor  
 
 ## References / Evidences  
-![image](/uploads/3774d4fda0bb6e1b72dc04ceb1838fac/image.png)  ",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 03:45:28,2020-09-24 05:29:32,2020-09-24 05:28:06,,,Defect-PT-InternalReview,0,0
-214,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/214,NK013 : 入庫進捗 : Table height mismatch,Closed,"'# ↓Enter when creating defect issue↓  
+![image](/uploads/3774d4fda0bb6e1b72dc04ceb1838fac/image.png)  ",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 3:45,2020/9/24 5:29,2020/9/24 5:28,,,Defect-PT-InternalReview,0,0
+214,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/214,NK013 : 蜈･蠎ｫ騾ｲ謐・: Table height mismatch,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Horizontal line positioning is not match for button column, and code column.  
@@ -369,7 +369,7 @@ Horizontal border Y Pos is differect at detail button column, and every other co
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -387,8 +387,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-24 03:51:18,2020-10-01 05:50:44,2020-10-01 05:50:44,,,"Defect-PT-InternalReview,Doing,QA",0,0
-215,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/215,NK013 : 入庫進捗 : Data shown on incorrect date,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/24 3:51,2020/10/1 5:50,2020/10/1 5:50,,,"Defect-PT-InternalReview,Doing,QA",0,0
+215,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/215,NK013 : 蜈･蠎ｫ騾ｲ謐・: Data shown on incorrect date,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Data for item count, case count is shown on wrong date  
@@ -417,7 +417,7 @@ Both ""Today"" and ""Tomorrow"" shows same data.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -435,8 +435,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-24 03:57:29,2020-09-25 08:29:34,2020-09-25 08:29:34,,,"Defect-PT-InternalReview,Doing",0,0
-216,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/216,NK013 : 入庫進捗 : Missing comma for numbers,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/24 3:57,2020/9/25 8:29,2020/9/25 8:29,,,"Defect-PT-InternalReview,Doing",0,0
+216,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/216,NK013 : 蜈･蠎ｫ騾ｲ謐・: Missing comma for numbers,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 "","" is missing for header area  
@@ -467,7 +467,7 @@ Missing comma
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Html pg mistake
@@ -485,8 +485,8 @@ Html code
 Update Html code  
 
 ## References / Evidences  
-![image](/uploads/2a5a1bbedd63b878e20809264a9433ec/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 04:01:32,2020-09-25 03:28:29,2020-09-25 02:49:37,,,Defect-PT-InternalReview,0,0
-219,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/219,NK014 : 入庫進捗詳細 : Missing comma for numbers,Closed,"'# ↓Enter when creating defect issue↓  
+![image](/uploads/2a5a1bbedd63b878e20809264a9433ec/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 4:01,2020/9/25 3:28,2020/9/25 2:49,,,Defect-PT-InternalReview,0,0
+219,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/219,NK014 : 蜈･蠎ｫ騾ｲ謐苓ｩｳ邏ｰ : Missing comma for numbers,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 "","" is missing for header area  
@@ -517,7 +517,7 @@ Missing comma
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Html pg mistake
@@ -535,8 +535,8 @@ Html code
 Update Html code  
 
 ## References / Evidences  
-![image](/uploads/00109fadc9b5f3dce72fc884ea42bcc2/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 05:54:22,2020-09-25 07:08:44,2020-09-25 07:08:44,,,Defect-PT-InternalReview,0,0
-220,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/220,NK014 : 入庫進捗詳細 : Initial focus point mismatch,Closed,"'# ↓Enter when creating defect issue↓  
+![image](/uploads/00109fadc9b5f3dce72fc884ea42bcc2/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 5:54,2020/9/25 7:08,2020/9/25 7:08,,,Defect-PT-InternalReview,0,0
+220,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/220,NK014 : 蜈･蠎ｫ騾ｲ謐苓ｩｳ邏ｰ : Initial focus point mismatch,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 First focus is at different point when screen is initially opened.    
@@ -567,7 +567,7 @@ Enter how it was actually working
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Missing setfocus hidden input 
@@ -585,8 +585,8 @@ Html code
 add hidden input
 
 ## References / Evidences  
-![image](/uploads/2d8fa2fd1287c56728a0d8dfd751909c/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 06:00:13,2020-09-28 01:13:00,2020-09-25 07:08:47,,,Defect-PT-InternalReview,0,0
-221,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/221,NK014 : 入庫進捗詳細 : Dropdown item names,Closed,"'# ↓Enter when creating defect issue↓  
+![image](/uploads/2d8fa2fd1287c56728a0d8dfd751909c/image.png)",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 6:00,2020/9/28 1:13,2020/9/25 7:08,,,Defect-PT-InternalReview,0,0
+221,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/221,NK014 : 蜈･蠎ｫ騾ｲ謐苓ｩｳ邏ｰ : Dropdown item names,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Code of first item is not shown  
@@ -612,7 +612,7 @@ Each item follow format ""code:name""
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -630,8 +630,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-24 07:25:59,2020-10-01 05:50:26,2020-10-01 05:50:26,,,"Defect-PT-InternalReview,Doing,QA",0,0
-222,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/222,NK014 : 入庫進捗詳細 : Tool Tips Missing,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/24 7:25,2020/10/1 5:50,2020/10/1 5:50,,,"Defect-PT-InternalReview,Doing,QA",0,0
+222,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/222,NK014 : 蜈･蠎ｫ騾ｲ謐苓ｩｳ邏ｰ : Tool Tips Missing,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Missing tool tips  
@@ -663,7 +663,7 @@ No tool tip is shown
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -681,8 +681,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-09-24 07:30:48,2020-09-28 01:22:43,2020-09-28 01:22:42,,,Defect-PT-InternalReview,0,0
-224,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/224,NK014 : 入庫進捗詳細 : Progress Bar color update,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/9/24 7:30,2020/9/28 1:22,2020/9/28 1:22,,,Defect-PT-InternalReview,0,0
+224,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/224,NK014 : 蜈･蠎ｫ騾ｲ謐苓ｩｳ邏ｰ : Progress Bar color update,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Progress Bar color is not same as OLD LOMOS  
@@ -712,7 +712,7 @@ Color of 2nd progress bar stays as dark blue
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -730,8 +730,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-24 10:27:59,2020-10-01 05:50:14,2020-10-01 05:50:14,,,"Defect-PT-InternalReview,Doing,QA",0,0
-228,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/228,MS060 : ロケーション属性マスタ検索 : Add button position mismatch,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/24 10:27,2020/10/1 5:50,2020/10/1 5:50,,,"Defect-PT-InternalReview,Doing,QA",0,0
+228,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/228,MS060 : 繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ螻樊ｧ繝槭せ繧ｿ讀懃ｴ｢ : Add button position mismatch,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Enter summary here  
@@ -760,7 +760,7 @@ Add button is right under header
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -778,8 +778,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-29 07:16:20,2020-10-01 05:51:20,2020-10-01 05:51:20,,,Defect-PT-InternalReview,0,0
-229,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/229,TN001 : 棚卸管理 : System error caused when button is pressed,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/29 7:16,2020/10/1 5:51,2020/10/1 5:51,,,Defect-PT-InternalReview,0,0
+229,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/229,TN001 : 譽壼査邂｡逅・: System error caused when button is pressed,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 When button is pressed, system error is shown  
@@ -808,7 +808,7 @@ System error
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -826,8 +826,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-29 09:01:34,2020-10-16 06:15:33,2020-10-16 06:15:33,,,Defect-PT-InternalReview,0,0
-230,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/230,TN001 : 棚卸管理 : White List count does not get updated,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/29 9:01,2020/10/16 6:15,2020/10/16 6:15,,,Defect-PT-InternalReview,0,0
+230,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/230,TN001 : 譽壼査邂｡逅・: White List count does not get updated,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Page count does not get added, when white list is exported.  
@@ -851,7 +851,7 @@ Page Count is NOT updated.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -869,8 +869,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-09-29 09:19:45,2020-10-22 05:35:36,2020-10-22 05:35:36,,,Defect-PT-InternalReview,0,0
-240,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/240,SK006 : 出荷実績確定 : Missing required field color,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/9/29 9:19,2020/10/22 5:35,2020/10/22 5:35,,,Defect-PT-InternalReview,0,0
+240,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/240,SK006 : 蜃ｺ闕ｷ螳溽ｸｾ遒ｺ螳・: Missing required field color,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Dropdown is not shown as required field  
@@ -899,7 +899,7 @@ BG is white
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -917,8 +917,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 02:52:28,2020-10-05 00:57:17,2020-10-05 00:57:17,,,Defect-PT-InternalReview,0,0
-241,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/241,SK006 : 出荷実績確定 : Button requested to hide is shown,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 2:52,2020/10/5 0:57,2020/10/5 0:57,,,Defect-PT-InternalReview,0,0
+241,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/241,SK006 : 蜃ｺ闕ｷ螳溽ｸｾ遒ｺ螳・: Button requested to hide is shown,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Needs to Hide UI based on UI spec request    
@@ -929,7 +929,7 @@ Needs to Hide UI based on UI spec request
 1. Hide   
 2. Apply feature, and then comment out  
 )  
-![image](/uploads/7c0d5675abc136a9bbc4a82db0733933/image.png)　　 
+![image](/uploads/7c0d5675abc136a9bbc4a82db0733933/image.png)縲縲 
 
 **In NEW LOMOS**  
 ![image](/uploads/6af300ecca3ef607cf5808c3240a4db5/image.png)  
@@ -952,7 +952,7 @@ UI expected to be hidden is shown
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -970,8 +970,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 03:17:42,2020-10-05 00:57:14,2020-10-05 00:57:14,,,Defect-PT-InternalReview,0,0
-242,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/242,SK006 : 出荷実績確定 : System error when executing item,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 3:17,2020/10/5 0:57,2020/10/5 0:57,,,Defect-PT-InternalReview,0,0
+242,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/242,SK006 : 蜃ｺ闕ｷ螳溽ｸｾ遒ｺ螳・: System error when executing item,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 System error when execute is triggered  
@@ -1012,7 +1012,7 @@ System Error
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1030,12 +1030,12 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 03:31:14,2020-10-05 00:57:16,2020-10-05 00:57:16,,,Defect-PT-InternalReview,0,0
-243,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/243,MS023 : ゾーンマスタ設定 : Fail when trying to update data,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 3:31,2020/10/5 0:57,2020/10/5 0:57,,,Defect-PT-InternalReview,0,0
+243,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/243,MS023 : 繧ｾ繝ｼ繝ｳ繝槭せ繧ｿ險ｭ螳・: Fail when trying to update data,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 When trying to update data, it fails with message   
-`W095 対象ロケーションの範囲は既に他のゾーンで設定されているため、登録できません。`  
+`W095 蟇ｾ雎｡繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ縺ｮ遽・峇縺ｯ譌｢縺ｫ莉悶・繧ｾ繝ｼ繝ｳ縺ｧ險ｭ螳壹＆繧後※縺・ｋ縺溘ａ縲∫匳骭ｲ縺ｧ縺阪∪縺帙ｓ縲Ａ  
 
 ## References / Evidences  
 ![image](/uploads/181fad5937e175139e563e7384e8e924/image.png)  
@@ -1056,11 +1056,11 @@ When updating already existing data, it fails.
 
 ## Actual Result  
 1. Fails with following message (target location area is already set in other zone. cannot register)
-`W095 対象ロケーションの範囲は既に他のゾーンで設定されているため、登録できません。`  
+`W095 蟇ｾ雎｡繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ縺ｮ遽・峇縺ｯ譌｢縺ｫ莉悶・繧ｾ繝ｼ繝ｳ縺ｧ險ｭ螳壹＆繧後※縺・ｋ縺溘ａ縲∫匳骭ｲ縺ｧ縺阪∪縺帙ｓ縲Ａ  
   
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1078,8 +1078,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 03:52:11,2020-10-05 00:57:41,2020-10-05 00:57:41,,,Defect-PT-InternalReview,0,0
-244,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/244,MS023 : ゾーンマスタ設定 : Delete button disable status mismatch,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 3:52,2020/10/5 0:57,2020/10/5 0:57,,,Defect-PT-InternalReview,0,0
+244,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/244,MS023 : 繧ｾ繝ｼ繝ｳ繝槭せ繧ｿ險ｭ螳・: Delete button disable status mismatch,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 When selecting item that cannot be updated/deleted, in NEW LOMOS delete button is not disbled.    
@@ -1115,7 +1115,7 @@ Delete button is enabled, when its expected to be disabled.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1133,8 +1133,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-02 03:57:16,2020-10-06 03:08:25,2020-10-06 03:08:25,,,"Defect-PT-InternalReview,Doing",0,0
-246,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/246,MS023 : ゾーンマスタ設定 : Required field text background color issue,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/2 3:57,2020/10/6 3:08,2020/10/6 3:08,,,"Defect-PT-InternalReview,Doing",0,0
+246,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/246,MS023 : 繧ｾ繝ｼ繝ｳ繝槭せ繧ｿ險ｭ螳・: Required field text background color issue,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 For some fields bg color is updated to pink after insert.
@@ -1169,7 +1169,7 @@ Enter how it was actually working
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1187,8 +1187,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-02 04:26:48,2020-10-06 03:02:35,2020-10-06 03:02:35,,,"Defect-PT-InternalReview,Doing",0,0
-247,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/247,MS023 : ゾーンマスタ設定 : Deleted Data is not removed from MS022,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/10/2 4:26,2020/10/6 3:02,2020/10/6 3:02,,,"Defect-PT-InternalReview,Doing",0,0
+247,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/247,MS023 : 繧ｾ繝ｼ繝ｳ繝槭せ繧ｿ險ｭ螳・: Deleted Data is not removed from MS022,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Deleted data in MS023 is not applied in MS022    
@@ -1218,7 +1218,7 @@ Deleted item still exists
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1236,8 +1236,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-02 07:19:24,2020-10-09 02:33:14,2020-10-09 02:33:14,,,"Defect-PT-InternalReview,Doing",0,0
-248,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/248,NK005 : 入庫指示リスト出力 : Select All / Unselect All is not working,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/10/2 7:19,2020/10/9 2:33,2020/10/9 2:33,,,"Defect-PT-InternalReview,Doing",0,0
+248,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/248,NK005 : 蜈･蠎ｫ謖・､ｺ繝ｪ繧ｹ繝亥・蜉・: Select All / Unselect All is not working,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 When clicking Select all / deselect all, checkbox is not updated  
@@ -1265,7 +1265,7 @@ Enter how it was actually working
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Missing JavaScript
@@ -1284,8 +1284,8 @@ add NK005 JavaScript
 
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-02 07:50:04,2020-10-14 08:19:41,2020-10-09 02:56:27,,,"Defect-PT-InternalReview,To Do",0,0
-249,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/249,NK005 : 入庫指示リスト出力 : Export via Supplier / Item,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/10/2 7:50,2020/10/14 8:19,2020/10/9 2:56,,,"Defect-PT-InternalReview,To Do",0,0
+249,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/249,NK005 : 蜈･蠎ｫ謖・､ｺ繝ｪ繧ｹ繝亥・蜉・: Export via Supplier / Item,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 System Error occurs and data is not updated  
@@ -1323,7 +1323,7 @@ Button on click event, DB update
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Print function is not ready yet  
@@ -1341,8 +1341,8 @@ Comment out the print function
 Comment out the print function
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-02 08:00:40,2020-10-14 07:33:07,2020-10-14 07:33:07,,,"Defect-PT-InternalReview,Doing",0,0
-258,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/258,ZN007 : 日締め処理 : System error when start button is clicked,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/10/2 8:00,2020/10/14 7:33,2020/10/14 7:33,,,"Defect-PT-InternalReview,Doing",0,0
+258,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/258,ZN007 : 譌･邱繧∝・逅・: System error when start button is clicked,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 When button is clicked, system error occurs  
@@ -1368,7 +1368,7 @@ System Error
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1386,8 +1386,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 01:34:27,2020-10-09 02:42:14,2020-10-09 02:42:14,,,Defect-PT-InternalReview,0,0
-259,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/259,TR002 : 出荷実績履歴参照 : Date validator not working,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 1:34,2020/10/9 2:42,2020/10/9 2:42,,,Defect-PT-InternalReview,0,0
+259,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/259,TR002 : 蜃ｺ闕ｷ螳溽ｸｾ螻･豁ｴ蜿ら・ : Date validator not working,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Date validation does not validate non-date format texts    
@@ -1421,7 +1421,7 @@ No error message, some search result is shown
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1439,8 +1439,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 01:49:09,2020-10-09 02:04:50,2020-10-09 02:04:50,,,Defect-PT-InternalReview,0,0
-260,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/260,TR002 : 出荷実績履歴参照 : Button margin is not set,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 1:49,2020/10/9 2:04,2020/10/9 2:04,,,Defect-PT-InternalReview,0,0
+260,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/260,TR002 : 蜃ｺ闕ｷ螳溽ｸｾ螻･豁ｴ蜿ら・ : Button margin is not set,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Button margin is not set as expected  
@@ -1467,7 +1467,7 @@ Margin is not set to button, and layout is not looking good.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1485,8 +1485,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 01:57:17,2020-10-27 04:04:04,2020-10-27 04:04:04,,,"Defect-PT-InternalReview,Doing",0,0
-261,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/261,TR002 : 出荷実績履歴参照 : Able enter double byte character each fields,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 1:57,2020/10/27 4:04,2020/10/27 4:04,,,"Defect-PT-InternalReview,Doing",0,0
+261,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/261,TR002 : 蜃ｺ闕ｷ螳溽ｸｾ螻･豁ｴ蜿ら・ : Able enter double byte character each fields,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Double byte can be typed, but it should not be able to be typed  
@@ -1514,7 +1514,7 @@ Should not allow double byte input.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1532,8 +1532,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 02:10:52,2020-10-27 04:03:56,2020-10-27 04:03:56,,,Defect-PT-InternalReview,0,0
-262,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/262,TR002 : 出荷実績履歴参照 : Shipping Date FROM is not shown as required field,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 2:10,2020/10/27 4:03,2020/10/27 4:03,,,Defect-PT-InternalReview,0,0
+262,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/262,TR002 : 蜃ｺ闕ｷ螳溽ｸｾ螻･豁ｴ蜿ら・ : Shipping Date FROM is not shown as required field,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 For required field, following is missing.
@@ -1563,7 +1563,7 @@ Enter how it was actually working
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1581,8 +1581,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020-10-09 02:26:18,2020-10-27 04:03:34,2020-10-27 04:03:34,,,"Defect-PT-InternalReview,Doing",0,0
-274,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/274,MS023 : A strange behaviour on update data,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nur Diyana,yana,No,No,,2020/10/9 2:26,2020/10/27 4:03,2020/10/27 4:03,,,"Defect-PT-InternalReview,Doing",0,0
+274,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/274,MS023 : A strange behaviour on update data,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 A strange behaviour when I tried to update data by clicking add/update, It will trigger me that I have to click search button before update. Whereas I already pressed the search button before. This only occurs when user search for existing data, update to existing location and press add/update then try to change to correct location (not exist yet) then try to press add/update .
@@ -1603,36 +1603,8 @@ Enter what error is occurring
 4) Error shows that location has existed, fix the location ""for"" and ""to"" to valid location to update and click add/update
 5) an error shows ""W199 
 
-入力したコードは、既に存在していますので、検索ボタンを押してください。""
-
-## Expected Result  
-Enter how it should work  
-
-## Actual Result  
-Enter how it was actually working  
-
----
-
-# ↓Enter when issue is resolved↓  
-
-## What was the direct cause?  
-There is updateTime which is not considered during migration.
-
-## What was the root cause?  
-The Javascript is not fully migrated.
-
-## How can this be prevented from next time?  
-Enter how to prevent, so it will not happen in future  
-
-## What was changed to resolve this?  
-Enter which files/settings you have updated  
-
-## How was it changed to resolve this?  
-Enter what/how each files/settings have been updated  
-
-## References / Evidences  
-Paste screen capture after update",AUT-Iskandar,iskandar,AUT-Iskandar,iskandar,No,No,2020-10-16,2020-10-16 10:15:02,2020-10-16 10:26:57,2020-10-16 10:26:57,,,Defect-PT-InternalReview,0,0
-276,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/276,TN001 : 棚卸管理 : Inventory does not get removed after complete inventory,Closed,"'# ↓Enter when creating defect issue↓  
+蜈･蜉帙＠縺溘さ繝ｼ繝峨・縲∵里縺ｫ蟄伜惠縺励※縺・∪縺吶・縺ｧ縲∵､懃ｴ｢繝懊ち繝ｳ繧呈款縺励※縺上□縺輔＞縲・",,,,,,,,,,,,,,,
+276,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/276,TN001 : 譽壼査邂｡逅・: Inventory does not get removed after complete inventory,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 In TN001, inventory status does not get updated.  
@@ -1665,7 +1637,7 @@ Table and message is not updated
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1683,8 +1655,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-20 07:28:18,2020-10-23 05:55:54,2020-10-23 05:55:54,,,Defect-PT-InternalReview,0,0
-277,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/277,TN003 : 棚卸入力 : Header UI,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/10/20 7:28,2020/10/23 5:55,2020/10/23 5:55,,,Defect-PT-InternalReview,0,0
+277,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/277,TN003 : 譽壼査蜈･蜉・: Header UI,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 UI not matches format with other screens.
@@ -1703,9 +1675,9 @@ UI
 
 ## What Error Occurred  
 1. Missing table format
-2. Missing text ""Page Number"" (ページ番号）
+2. Missing text ""Page Number"" (繝壹・繧ｸ逡ｪ蜿ｷ・・
 3. BG color of input field in header area should be white
-4. Unexpected title text ""Search Criteria"" (検索条件)
+4. Unexpected title text ""Search Criteria"" (讀懃ｴ｢譚｡莉ｶ)
 
 ## Operation Procedure  
 1. Open TN003  
@@ -1723,7 +1695,7 @@ Sample in MS022
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1741,8 +1713,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-20 07:33:29,2020-10-22 05:35:32,2020-10-22 05:35:32,,,Defect-PT-InternalReview,0,0
-279,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/279,TN003 : 棚卸入力 : Back button returns to menu instead of prev screen,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/10/20 7:33,2020/10/22 5:35,2020/10/22 5:35,,,Defect-PT-InternalReview,0,0
+279,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/279,TN003 : 譽壼査蜈･蜉・: Back button returns to menu instead of prev screen,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 When back is pressed in TN003, it returns to main menu  
@@ -1768,7 +1740,7 @@ Not returns to previous page
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1786,8 +1758,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-20 09:22:30,2020-10-22 05:35:31,2020-10-22 05:35:31,,,Defect-PT-InternalReview,0,0
-280,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/280,TN002 : 棚卸開始 : Table layout (title),Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/10/20 9:22,2020/10/22 5:35,2020/10/22 5:35,,,Defect-PT-InternalReview,0,0
+280,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/280,TN002 : 譽壼査髢句ｧ・: Table layout (title),Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Title text UI does not match with other screen pattern, such as MS022  
@@ -1797,51 +1769,8 @@ Title text UI does not match with other screen pattern, such as MS022
 
 ## Function With Error  
 Layout for title of table  
-(in this screen ""棚卸開始"" and ""各種設定"")  
-
-## What Error Occurred  
-Needs confirmation if this is as expected layout  
-
-## Operation Procedure  
-1. None  
-
-## Expected Result  
-According to MS022, this kind of title is cut off.  
-Needs confirmation within team which is correct, and apply to that.  
-
-Sample in MS022  
-![image](/uploads/25bd6d344a7e836c7a4ffc0711b11e73/image.png)  
-![image](/uploads/4feaff90d70afeecc538fae4ff05d387/image.png)  
-  
-## Actual Result  
-![image](/uploads/c9824d56e62fffe0d3dbb2b5233e9345/image.png)    
-![image](/uploads/8a8416ccbc2676a9b974bdf7f916ec5c/image.png)  
-
-ALSO same in TN003  
-![image](/uploads/646a8fa7483e94a643adac821dc2599d/image.png)  
-  
----
-
-# ↓Enter when issue is resolved↓  
-
-## What was the direct cause?  
-Enter the direct cause of this  
-
-## What was the root cause?  
-Enter the root cause of this  
-
-## How can this be prevented from next time?  
-Enter how to prevent, so it will not happen in future  
-
-## What was changed to resolve this?  
-Enter which files/settings you have updated  
-
-## How was it changed to resolve this?  
-Enter what/how each files/settings have been updated  
-
-## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-10-20 09:30:31,2020-10-22 05:35:30,2020-10-22 05:35:30,,,Defect-PT-InternalReview,0,0
-281,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/281,SK007 : 出荷進捗照会 : Able to update Deliver Destination name manually,Closed,"'# ↓Enter when creating defect issue↓  
+(in this screen ""譽壼査髢句ｧ・ and """"蜷・ｨｮ險ｭ螳・"")  ",,,,,,,,,,,,,,,
+281,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/281,SK007 : 蜃ｺ闕ｷ騾ｲ謐礼・莨・: Able to update Deliver Destination name manually,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Able to update text, that should not be able to.    
@@ -1869,7 +1798,7 @@ Able to update field that should not be able to.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1887,8 +1816,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-21 07:21:12,2020-10-26 14:40:26,2020-10-26 14:40:26,,,Defect-PT-InternalReview,0,0
-291,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/291,MS024 : ルートマスタ検索 / Search_Route_Master : Margin for table button is missing,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/21 7:21,2020/10/26 14:40,2020/10/26 14:40,,,Defect-PT-InternalReview,0,0
+291,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/291,MS024 : 繝ｫ繝ｼ繝医・繧ｹ繧ｿ讀懃ｴ｢ / Search_Route_Master : Margin for table button is missing,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Margin or Padding for button is missing   
@@ -1916,7 +1845,7 @@ To show with margin like this
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1934,8 +1863,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-10-27 03:41:19,2020-10-30 08:43:16,2020-10-30 08:43:15,,,"Defect-PT-InternalReview,Doing",0,0
-292,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/292,NK012 : 入庫実績問い合わせ / Receiving_Progress_Inquiry : Able to update Deliver Destination name manually,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/10/27 3:41,2020/10/30 8:43,2020/10/30 8:43,,,"Defect-PT-InternalReview,Doing",0,0
+292,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/292,NK012 : 蜈･蠎ｫ螳溽ｸｾ蝠上＞蜷医ｏ縺・/ Receiving_Progress_Inquiry : Able to update Deliver Destination name manually,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Able to update text, that should not be able to.    
@@ -1964,7 +1893,7 @@ Able to update field that should not be able to.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -1982,8 +1911,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-10-27 03:46:09,2020-10-30 08:43:13,2020-10-30 08:43:13,,,"Defect-PT-InternalReview,Doing",0,0
-294,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/294,SK008 : 出荷進捗照会詳細 / Shipping_Progress_Inquiry_Detail,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/10/27 3:46,2020/10/30 8:43,2020/10/30 8:43,,,"Defect-PT-InternalReview,Doing",0,0
+294,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/294,SK008 : 蜃ｺ闕ｷ騾ｲ謐礼・莨夊ｩｳ邏ｰ / Shipping_Progress_Inquiry_Detail,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Table has horitonzal scroll    
@@ -2008,7 +1937,7 @@ Table has scroll bar
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2026,8 +1955,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-![image](/uploads/c7d48d75e8589347628e5d989f4f7b10/image.png)",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-10-27 06:34:47,2020-10-27 13:55:20,2020-10-27 13:55:20,,,Defect-PT-InternalReview,0,0
-295,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/295,PT SK013 fix to disabled date after search,Closed,"'# ↓Enter when creating defect issue↓  
+![image](/uploads/c7d48d75e8589347628e5d989f4f7b10/image.png)",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/10/27 6:34,2020/10/27 13:55,2020/10/27 13:55,,,Defect-PT-InternalReview,0,0
+295,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/295,PT SK013 fix to disabled date after search,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 SK013 on OLD_LOMOS will disable nhDate after search. In current lomos it is not implemented. 
@@ -2052,7 +1981,7 @@ the date is not being disabled
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Migration for date disability is not being implemented
@@ -2070,8 +1999,8 @@ Change the date to disabled after search
 change SK013.xhtml and SK013.java
 
 ## References / Evidences  
-Paste screen capture after update",AUT-Iskandar,iskandar,AUT-Iskandar,iskandar,No,No,,2020-10-27 13:54:52,2020-10-27 14:30:01,2020-10-27 14:30:01,,,Defect-PT-InternalReview,0,0
-298,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/298,MS025 : ルートマスタ設定 / Route_Master_Settings : Message Not fully shown,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",AUT-Iskandar,iskandar,AUT-Iskandar,iskandar,No,No,,2020/10/27 13:54,2020/10/27 14:30,2020/10/27 14:30,,,Defect-PT-InternalReview,0,0
+298,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/298,MS025 : 繝ｫ繝ｼ繝医・繧ｹ繧ｿ險ｭ螳・/ Route_Master_Settings : Message Not fully shown,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Enter summary here  
@@ -2105,7 +2034,7 @@ Word ""Route"" is missing in message.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2123,8 +2052,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-11-04 07:29:54,2020-11-09 05:42:23,2020-11-09 05:42:23,,,Defect-PT-InternalReview,0,0
-299,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/299,ZK007 : 在庫ステータス管理 / Stock_Status_Management : Field is not shown as required field,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/11/4 7:29,2020/11/9 5:42,2020/11/9 5:42,,,Defect-PT-InternalReview,0,0
+299,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/299,ZK007 : 蝨ｨ蠎ｫ繧ｹ繝・・繧ｿ繧ｹ邂｡逅・/ Stock_Status_Management : Field is not shown as required field,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Dropdown is not shown as required field.  
@@ -2154,7 +2083,7 @@ Inventory status is NOT shown as required field.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2172,8 +2101,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-11-05 03:41:25,2020-11-09 05:42:12,2020-11-09 05:42:12,,,Defect-PT-InternalReview,0,0
-301,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/301,List export feature is not working as expected,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/11/5 3:41,2020/11/9 5:42,2020/11/9 5:42,,,Defect-PT-InternalReview,0,0
+301,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/301,List export feature is not working as expected,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Export button does not export csv file in `D:/csvprint` folder in VM.  
@@ -2208,7 +2137,7 @@ csv is not exported
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2226,8 +2155,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-11-09 05:18:31,2020-11-10 06:52:52,2020-11-10 06:51:39,,,Defect-PT-InternalReview,0,0
-302,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/302,RPTN002 : 棚卸差異リスト / Export_Inventory_Diff_List : System Error,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/11/9 5:18,2020/11/10 6:52,2020/11/10 6:51,,,Defect-PT-InternalReview,0,0
+302,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/302,RPTN002 : 譽壼査蟾ｮ逡ｰ繝ｪ繧ｹ繝・/ Export_Inventory_Diff_List : System Error,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 System error occurs when export button is pressed.    
@@ -2256,7 +2185,7 @@ System Error
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2274,8 +2203,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-11-09 05:23:00,2020-11-10 06:54:14,2020-11-10 06:54:13,,,"Defect-PT-InternalReview,Doing",0,0
-354,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/354,RPTN002 - Message says No Diff to report even after update.,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/11/9 5:23,2020/11/10 6:54,2020/11/10 6:54,,,"Defect-PT-InternalReview,Doing",0,0
+354,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/354,RPTN002 - Message says No Diff to report even after update.,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Message says No Diff to report even after update,  
@@ -2305,7 +2234,7 @@ CSV is exported.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2323,8 +2252,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-11-13 14:00:30,2020-11-18 06:06:21,2020-11-18 06:06:21,,,Defect-PT-InternalReview,0,0
-355,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/355,RPTN002/RPTN003 - Wrong CSV name,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/11/13 14:00,2020/11/18 6:06,2020/11/18 6:06,,,Defect-PT-InternalReview,0,0
+355,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/355,RPTN002/RPTN003 - Wrong CSV name,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Exported CSV file name seems different with the screen name specified in SVN, for RPTN002 and RPTN003.
@@ -2356,7 +2285,7 @@ CSV file name is shown is different with SVN
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2374,7 +2303,7 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-11-13 14:12:57,2020-11-17 06:22:52,2020-11-17 06:22:52,,,"Defect-PT-InternalReview,To Do",0,0
+Paste screen capture after update",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/11/13 14:12,2020/11/17 6:22,2020/11/17 6:22,,,"Defect-PT-InternalReview,To Do",0,0
 356,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/356,[QA] About content of CSV with RPTN002 -> Inventory Diff,Closed,"Currently for zone `FF`, when I changed only 2 items,  
 following csv content was exported.  
 
@@ -2384,14 +2313,14 @@ may I confirm followings.
 2. Following data is ALL data that is expected to be shown for `FF` data.
 
 ```
-0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	1	1	0	4902777465579	 	 	1	1
-0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	31138	31128	-10	4902777465579	001	 	1	2
-0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	100	100	0	4902777465579	1	20150404	1	3
-0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	88	78	-10	4902777465579	48	20150911	1	4
-0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	7998	7998	0	4902777465579	H000000001	20130706	1	5
-0000000001	富士通商事	001	東京センター		F0000001	FF	返品ゾーン	0000000001	ケース/バラ	おいしいココア　24g	７袋	10	11	11	0	4902777465579	LOT001	20000101	1	6
-```",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020-11-13 14:20:32,2020-11-18 06:06:15,2020-11-18 06:06:15,,,Defect-PT-InternalReview,0,0
-357,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/357,SK015 : 出荷実績進捗明細 / Shipping_Result_Progress_Statement : UI Diff with OLD LOMOS,Closed,"'# ↓Enter when creating defect issue↓  
+0000000001	蟇悟｣ｫ騾壼膚莠・001	譚ｱ莠ｬ繧ｻ繝ｳ繧ｿ繝ｼ		F0000001	FF	霑泌刀繧ｾ繝ｼ繝ｳ	0000000001	繧ｱ繝ｼ繧ｹ/繝舌Λ	縺翫＞縺励＞繧ｳ繧ｳ繧｢縲24g	・苓｢・10	1	1	0	4902777465579	 	 	1	1
+0000000001	蟇悟｣ｫ騾壼膚莠・001	譚ｱ莠ｬ繧ｻ繝ｳ繧ｿ繝ｼ		F0000001	FF	霑泌刀繧ｾ繝ｼ繝ｳ	0000000001	繧ｱ繝ｼ繧ｹ/繝舌Λ	縺翫＞縺励＞繧ｳ繧ｳ繧｢縲24g	・苓｢・10	31138	31128	-10	4902777465579	001	 	1	2
+0000000001	蟇悟｣ｫ騾壼膚莠・001	譚ｱ莠ｬ繧ｻ繝ｳ繧ｿ繝ｼ		F0000001	FF	霑泌刀繧ｾ繝ｼ繝ｳ	0000000001	繧ｱ繝ｼ繧ｹ/繝舌Λ	縺翫＞縺励＞繧ｳ繧ｳ繧｢縲24g	・苓｢・10	100	100	0	4902777465579	1	20150404	1	3
+0000000001	蟇悟｣ｫ騾壼膚莠・001	譚ｱ莠ｬ繧ｻ繝ｳ繧ｿ繝ｼ		F0000001	FF	霑泌刀繧ｾ繝ｼ繝ｳ	0000000001	繧ｱ繝ｼ繧ｹ/繝舌Λ	縺翫＞縺励＞繧ｳ繧ｳ繧｢縲24g	・苓｢・10	88	78	-10	4902777465579	48	20150911	1	4
+0000000001	蟇悟｣ｫ騾壼膚莠・001	譚ｱ莠ｬ繧ｻ繝ｳ繧ｿ繝ｼ		F0000001	FF	霑泌刀繧ｾ繝ｼ繝ｳ	0000000001	繧ｱ繝ｼ繧ｹ/繝舌Λ	縺翫＞縺励＞繧ｳ繧ｳ繧｢縲24g	・苓｢・10	7998	7998	0	4902777465579	H000000001	20130706	1	5
+0000000001	蟇悟｣ｫ騾壼膚莠・001	譚ｱ莠ｬ繧ｻ繝ｳ繧ｿ繝ｼ		F0000001	FF	霑泌刀繧ｾ繝ｼ繝ｳ	0000000001	繧ｱ繝ｼ繧ｹ/繝舌Λ	縺翫＞縺励＞繧ｳ繧ｳ繧｢縲24g	・苓｢・10	11	11	0	4902777465579	LOT001	20000101	1	6
+```",Nomura,nomura,AUT-Iskandar,iskandar,No,No,,2020/11/13 14:20,2020/11/18 6:06,2020/11/18 6:06,,,Defect-PT-InternalReview,0,0
+357,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/357,SK015 : 蜃ｺ闕ｷ螳溽ｸｾ騾ｲ謐玲・邏ｰ / Shipping_Result_Progress_Statement : UI Diff with OLD LOMOS,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 2 section in SK015 is different with OLD LOMOS
@@ -2427,7 +2356,7 @@ Some text is different, and table is corrupted.
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2445,8 +2374,8 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020-11-13 14:32:33,2020-11-26 04:59:59,2020-11-26 04:59:59,,,Defect-PT-InternalReview,0,0
-362,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/362,SK010 : 出荷実績問い合わせ / Shipping_Result_Inquiry : Required field color update,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Nomura,nomura,No,No,,2020/11/13 14:32,2020/11/26 4:59,2020/11/26 4:59,,,Defect-PT-InternalReview,0,0
+362,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/362,SK010 : 蜃ｺ闕ｷ螳溽ｸｾ蝠上＞蜷医ｏ縺・/ Shipping_Result_Inquiry : Required field color update,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 Required field cell background color is not exact same as OLD LOMOS.  
@@ -2486,7 +2415,7 @@ After check with FAE, conclusion, please update as following
 
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2504,18 +2433,18 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020-11-17 02:42:21,2020-11-17 06:15:07,2020-11-17 06:15:07,,,Defect-PT-InternalReview,0,0
-371,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/371,(result) PT UI review_TR004:出荷実績履歴参照（商品別）/ shipping_redult_histry_inquiry_by_item,Closed,"'# ↓Enter when creating defect issue↓  
+Paste screen capture after update",Nomura,nomura,Kent Loong,kentloong,No,No,,2020/11/17 2:42,2020/11/17 6:15,2020/11/17 6:15,,,Defect-PT-InternalReview,0,0
+371,http://10.164.174.152/dc2/emes/lomos-prod/-/issues/371,(result) PT UI review_TR004:蜃ｺ闕ｷ螳溽ｸｾ螻･豁ｴ蜿ら・・亥膚蜩∝挨・・ shipping_redult_histry_inquiry_by_item,Closed,"'# 竊摘nter when creating defect issue竊・ 
 
 ## Defect Summary  
 
 Please follow UI and rules.
 
-1. evi#all 商品コード is a required contents. It should be added '*'next to 商品コード.
+1. evi#all 蝠・刀繧ｳ繝ｼ繝・is a required contents. It should be added '*'next to 蝠・刀繧ｳ繝ｼ繝・
 
 
 
-2. evi#8 商品コード,JANCD,ITFCD are left-justification.
+2. evi#8 蝠・刀繧ｳ繝ｼ繝・JANCD,ITFCD are left-justification.
 
 
 ## References / Evidences  
@@ -2531,7 +2460,7 @@ none
 none
 ## Operation Procedure  
 
-1. Please add '*' next to 商品コード
+1. Please add '*' next to 蝠・刀繧ｳ繝ｼ繝・
 2. These code are left-justification. Please change them to center-justification.
 
 ## Expected Result  
@@ -2540,7 +2469,7 @@ It will become same as UI design.
 none
 ---
 
-# ↓Enter when issue is resolved↓  
+# 竊摘nter when issue is resolved竊・ 
 
 ## What was the direct cause?  
 Enter the direct cause of this  
@@ -2558,4 +2487,4 @@ Enter which files/settings you have updated
 Enter what/how each files/settings have been updated  
 
 ## References / Evidences  
-Paste screen capture after update","Hattori, Michiyo",hattori,Kent Loong,kentloong,No,No,,2020-11-20 10:02:23,2020-11-23 03:35:10,2020-11-23 03:35:10,,,Defect-PT-InternalReview,0,0
+Paste screen capture after update","Hattori, Michiyo",hattori,Kent Loong,kentloong,No,No,,2020/11/20 10:02,2020/11/23 3:35,2020/11/23 3:35,,,Defect-PT-InternalReview,0,0
